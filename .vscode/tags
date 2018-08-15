@@ -1,0 +1,804 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANTS	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def ANTS(fixedIm,movingIm,outputTransformPrefix,params,initialTransform=None, EXECUTE = False):$/;"	kind:function	line:204
+ANTSWarp2DImage	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def ANTSWarp2DImage(inputIm, outputIm, referenceIm, transformPrefix,inverse = False, EXECUTE = False):$/;"	kind:function	line:303
+ANTSWarpImage	../DataPreProcessing/Func_data_preprocessing.py	/^def ANTSWarpImage(inputIm, outputIm, referenceIm, transformPrefix, mode = 'linear', EXECUTE = False):$/;"	kind:function	line:366
+ANTSWarpImage	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def ANTSWarpImage(inputIm, outputIm, referenceIm, transformPrefix,inverse = False, EXECUTE = False):$/;"	kind:function	line:285
+ANTsRegParaInside	../DataPreProcessing/Func_data_preprocessing.py	/^def ANTsRegParaInside(fixedIm, movingIm, outputTransformPrefix,initialTransform = False, EXECUTE = False):$/;"	kind:function	line:287
+ANTsRegistration	../DataPreProcessing/Func_data_preprocessing.py	/^def ANTsRegistration(fixedIm, movingIm, outputTransformPrefix,params,initialTransform = False, EXECUTE = False):$/;"	kind:function	line:256
+ANTsTransImage	../DataPreProcessing/Func_data_preprocessing.py	/^def ANTsTransImage(inputIm, outputIm, referenceIm, transformPrefix, mode = 'linear', EXECUTE = False):$/;"	kind:function	line:333
+AfTransModification.py	../PreProcessing_v5/AfTransModification.py	1;"	kind:file	line:1
+AffineReg	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def AffineReg(fixedIm,movingIm,outputIm, outputTransform = None):$/;"	kind:function	line:174
+AverageImages	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def AverageImages(listOfImages,outputIm):$/;"	kind:function	line:508
+BSplineReg_BRAINSFit	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def BSplineReg_BRAINSFit(fixedIm,movingIm,outputIm, outputTransform,gridSize =[5,5,5] ,maxDisp = 5.0 , EXECUTE = False):$/;"	kind:function	line:362
+BSplineReg_Legacy	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def BSplineReg_Legacy(fixedIm,movingIm,outputIm, outputDVF, gridSize=5, iterationNum=20, EXECUTE = False):$/;"	kind:function	line:385
+BaseName	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^        BaseName = os.path.basename(name)$/;"	kind:variable	line:148
+BaseName	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^        BaseName = os.path.basename(name)$/;"	kind:variable	line:150
+BaseName	../Eigenface_KNN_DS_organpatch_8_30.py	/^        BaseName = os.path.basename(name)$/;"	kind:variable	line:188
+BaseName	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^        BaseName = os.path.basename(name)$/;"	kind:variable	line:188
+CWD	../PostProcessing.py	/^CWD = os.getcwd()$/;"	kind:variable	line:113
+CompareThePreandtruth_8_30.py	../CompareThePreandtruth_8_30.py	1;"	kind:file	line:1
+CompareThePreandtruth_reg_8_30 .py	../CompareThePreandtruth_reg_8_30 .py	1;"	kind:file	line:1
+ConvertTransform	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def ConvertTransform(fixedIm, outputTransform,outputDVF,EXECUTE = False):$/;"	kind:function	line:406
+CropImage	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def CropImage(inIm_name, outputIm_name, lowerCropSize, upperCropSize):$/;"	kind:function	line:58
+DataMatrix	../PreProcessing_v5/ImageProcessing.py	/^        DataMatrix = DataMatrix + np.abs(DataMatrix.min(axis=0))$/;"	kind:variable	line:168
+DemonsReg	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def DemonsReg(fixedIm,movingIm,outputIm, outputDVF,EXECUTE = False):$/;"	kind:function	line:335
+DiceScoreCalculation	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def DiceScoreCalculation(A,B):$/;"	kind:function	line:176
+DirFile	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^DirFile = Dpp.readTxtIntoList(Image_Root_Dir+'\/FileList.txt')$/;"	kind:variable	line:36
+DirectiongSet	../PreProcessing_v5/ImageProcessing.py	/^DirectiongSet = (-1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0)$/;"	kind:variable	line:70
+DirectiongSet	../PreProcessing_v5/LabelProcessing.py	/^DirectiongSet = ImInfo['direction']$/;"	kind:variable	line:79
+EXE_ANTS	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_ANTS = '\/home\/louis\/Documents\/Python\/ANTs-build\/bin\/antsRegistration'$/;"	kind:variable	line:203
+EXE_AverageImages	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_AverageImages ='\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/AverageImages'$/;"	kind:variable	line:507
+EXE_BRAINSDemonWarp	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BRAINSDemonWarp ='\/home\/louis\/Documents\/Python\/Slicer-4.5.0-1\/lib\/Slicer-4.5\/cli-modules\/BRAINSDemonWarp'$/;"	kind:variable	line:334
+EXE_BRAINSFit	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BRAINSFit = '\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/BRAINSFit'$/;"	kind:variable	line:173
+EXE_BRAINSFit	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BRAINSFit ='\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/BRAINSFit'$/;"	kind:variable	line:361
+EXE_BRAINSResample	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BRAINSResample = '\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/BRAINSResample'$/;"	kind:variable	line:457
+EXE_BSplineDeformableRegistration	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BSplineDeformableRegistration = '\/home\/louis\/Documents\/Python\/Slicer-4.5.0-1\/lib\/Slicer-4.5\/cli-modules\/BSplineDeformableRegistration'$/;"	kind:variable	line:384
+EXE_BSplineToDeformationField	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_BSplineToDeformationField = '\/home\/louis\/Documents\/Python\/Slicer-4.5.0-1\/lib\/Slicer-4.5\/cli-modules\/BSplineToDeformationField'$/;"	kind:variable	line:404
+EXE_ComposeMultiTransform	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_ComposeMultiTransform = '\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/ComposeMultiTransform'$/;"	kind:variable	line:438
+EXE_CreateJacobianDeterminantImage	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_CreateJacobianDeterminantImage = '\/home\/louis\/Documents\/Python\/ANTs-build\/bin\/CreateJacobianDeterminantImage'$/;"	kind:variable	line:321
+EXE_InvertDeformationField	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_InvertDeformationField = '\/home\/louis\/Documents\/Python\/ITKUtils_build\/InvertDeformationField '$/;"	kind:variable	line:515
+EXE_WarpImageMultiTransform	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_WarpImageMultiTransform = '\/home\/louis\/Documents\/Python\/ANTs-build\/bin\/WarpImageMultiTransform'$/;"	kind:variable	line:284
+EXE_WarpImageMultiTransform	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^EXE_WarpImageMultiTransform = '\/home\/louis\/Documents\/program_work\/BRAINSTools_build\/bin\/WarpImageMultiTransform'$/;"	kind:variable	line:419
+Eigenface_KNN_DS_LocalPatch_8_30.py	../Eigenface_KNN_DS_LocalPatch_8_30.py	1;"	kind:file	line:1
+Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	1;"	kind:file	line:1
+Eigenface_KNN_DS_organpatch_8_30.py	../Eigenface_KNN_DS_organpatch_8_30.py	1;"	kind:file	line:1
+Eigenface_KNN_DS_organpatch_reg_8_30 .py	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	1;"	kind:file	line:1
+Eigenface_basis	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def Eigenface_basis(ImageMatrix, Principal_component_order):$/;"	kind:function	line:129
+Eigenface_basis_RPCA	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def Eigenface_basis_RPCA(ImageMatrix,Principal_component_order, lamda, tol):    $/;"	kind:function	line:92
+Eigenface_basis_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^    Eigenface_basis_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_Eigenface_basis)$/;"	kind:variable	line:97
+Eigenface_basis_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    Eigenface_basis_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_Eigenface_basis)$/;"	kind:variable	line:97
+Eigenface_feature	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def Eigenface_feature(Matrix_image, image_mean, eigfaces):$/;"	kind:function	line:158
+Func_Eigenface_KNN.py	../EigenfaceKNN/Func_Eigenface_KNN.py	1;"	kind:file	line:1
+Func_Eigenface_KNN_patch_6_6.py	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	1;"	kind:file	line:1
+Func_GaussianWeightedMajorityVoting.py	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	1;"	kind:file	line:1
+Func_atlas_selection.py	../DataPreProcessing/Func_atlas_selection.py	1;"	kind:file	line:1
+Func_data_preprocessing.py	../DataPreProcessing/Func_data_preprocessing.py	1;"	kind:file	line:1
+Func_image_patch.py	../DataPreProcessing/Func_image_patch.py	1;"	kind:file	line:1
+Func_k_nearest_neighbor_eig.py	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	1;"	kind:file	line:1
+Func_k_nearest_neighbor_sklearning.py	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	1;"	kind:file	line:1
+Func_low_rank_atlas_iter_PCA.py	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	1;"	kind:file	line:1
+GaussianBlur	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def GaussianBlur(inputIm, outputIm, sigma):$/;"	kind:function	line:70
+GetListFromFile	../DataPreProcessing/Func_data_preprocessing.py	/^def GetListFromFile(path, endwith):$/;"	kind:function	line:28
+IFNormalization	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^IFNormalization = False$/;"	kind:variable	line:19
+IfOrganLevelRegistration	../PatchedImage_v2/Image_patch_8_30.py	/^IfOrganLevelRegistration = True$/;"	kind:variable	line:29
+ImInfo	../PreProcessing_v5/ImageProcessing.py	/^        ImInfo = ImageInfo.item()$/;"	kind:variable	line:196
+ImInfo	../PreProcessing_v5/ImageProcessing.py	/^    ImInfo = ImageInfo.item()$/;"	kind:variable	line:147
+ImInfo	../PreProcessing_v5/ImageProcessing.py	/^ImInfo = {}$/;"	kind:variable	line:73
+ImInfo	../PreProcessing_v5/LabelProcessing.py	/^ImInfo = ImageInfo.item()$/;"	kind:variable	line:77
+ImPred	../CRF/conditionalRandomFieldUse.py	/^    ImPred = sitk.ReadImage(crfModify_list[i])$/;"	kind:variable	line:121
+ImPred	../CRF/crfFit.py	/^    ImPred = sitk.ReadImage(crfModify_list[i])$/;"	kind:variable	line:106
+ImPred	../CompareThePreandtruth_8_30.py	/^    ImPred = sitk.ReadImage(predict_list[i])$/;"	kind:variable	line:69
+ImPred	../CompareThePreandtruth_reg_8_30 .py	/^    ImPred = sitk.ReadImage(predict_list[i])$/;"	kind:variable	line:69
+ImPred_array	../CRF/conditionalRandomFieldUse.py	/^    ImPred_array = sitk.GetArrayFromImage(ImPred)$/;"	kind:variable	line:122
+ImPred_array	../CRF/crfFit.py	/^    ImPred_array = sitk.GetArrayFromImage(ImPred)$/;"	kind:variable	line:107
+ImPred_array	../CompareThePreandtruth_8_30.py	/^    ImPred_array = sitk.GetArrayFromImage(ImPred)$/;"	kind:variable	line:70
+ImPred_array	../CompareThePreandtruth_reg_8_30 .py	/^    ImPred_array = sitk.GetArrayFromImage(ImPred)$/;"	kind:variable	line:70
+ImageCutting	../DataPreProcessing/Func_data_preprocessing.py	/^def ImageCutting(InputImageList, cuttingresult_dir):$/;"	kind:function	line:145
+ImageCuttingwithDim	../DataPreProcessing/Func_data_preprocessing.py	/^def ImageCuttingwithDim(InputImageList, cuttingresult_dir, dim):$/;"	kind:function	line:178
+ImageDirListtoMatrix	../DataPreProcessing/Func_data_preprocessing.py	/^def ImageDirListtoMatrix(InputImageList):$/;"	kind:function	line:52
+ImageInfo	../PostProcessing.py	/^ImageInfo = ImageInfo.item()$/;"	kind:variable	line:116
+ImageInfo	../PostProcessing.py	/^ImageInfo = np.load(CWD+'\/PreProcessing_v4\/ImageInfo.npy')$/;"	kind:variable	line:115
+ImageInfo	../PreProcessing_v5/ImageProcessing.py	/^        ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:195
+ImageInfo	../PreProcessing_v5/ImageProcessing.py	/^    ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:146
+ImageInfo	../PreProcessing_v5/LabelProcessing.py	/^ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:76
+ImageModificationAfterTransform	../DataPreProcessing/Func_data_preprocessing.py	/^def ImageModificationAfterTransform(InputImageList, result_dir, threshold = 10**(-2)):$/;"	kind:function	line:393
+ImageNormlization	../DataPreProcessing/Func_data_preprocessing.py	/^def ImageNormlization(InputImageList, result_dir):$/;"	kind:function	line:415
+ImageProcessing.py	../PreProcessing_v5/ImageProcessing.py	1;"	kind:file	line:1
+ImageRegOutput_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^ImageRegOutput_dir = Image_Result_Dir$/;"	kind:variable	line:51
+ImageRegOutput_dir	../PreProcessing_v5/LabelProcessing.py	/^ImageRegOutput_dir = root_imge_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:139
+Image_Result_Dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Image_Result_Dir = Output_Root_dir + '\/Volume_OrganReg'+ '\/' + organ$/;"	kind:variable	line:29
+Image_Root_Dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Image_Root_Dir = Input_Root_dir + '\/GC_Volumes_patch_Elastix\/' + organ + '_ImageMask'$/;"	kind:variable	line:25
+Image_patch_8_30.py	../PatchedImage_v2/Image_patch_8_30.py	1;"	kind:file	line:1
+Image_select	../PreProcessing_v5/ImageProcessing.py	/^Image_select = range(32)+range(33,40)  # range(32)+range(33,40)$/;"	kind:variable	line:43
+Imagelist_to_4DimMatrix	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def Imagelist_to_4DimMatrix(im_file_list, pad_para):$/;"	kind:function	line:21
+Imagelist_to_Matrix	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def Imagelist_to_Matrix(im_file_list):$/;"	kind:function	line:72
+Imagereginput_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Imagereginput_dir = Image_Root_Dir$/;"	kind:variable	line:48
+ImgroundTruth	../CRF/conditionalRandomFieldUse.py	/^    ImgroundTruth = sitk.ReadImage(groundTruth_list[i])$/;"	kind:variable	line:114
+ImgroundTruth	../CRF/crfFit.py	/^    ImgroundTruth = sitk.ReadImage(groundTruth_list[i])$/;"	kind:variable	line:110
+ImgroundTruth	../CompareThePreandtruth_8_30.py	/^    ImgroundTruth = sitk.ReadImage(groundTruth_list[i])$/;"	kind:variable	line:64
+ImgroundTruth	../CompareThePreandtruth_reg_8_30 .py	/^    ImgroundTruth = sitk.ReadImage(groundTruth_list[i])$/;"	kind:variable	line:64
+InVolumeandRefVolumePad	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def InVolumeandRefVolumePad(VolumIn, VolumRef, MajorityVotingPara):$/;"	kind:function	line:22
+InputDataDir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^InputDataDir = {}$/;"	kind:variable	line:64
+InputDataDir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^InputDataDir = {}$/;"	kind:variable	line:65
+InputImage	../PreProcessing_v5/ImageProcessing.py	/^        InputImage = NormalizedDataMatrix  # (z*x*y)*N$/;"	kind:variable	line:178
+InputImageList	../ShowImageInfo.py	/^InputImageList = Dpp.readTxtIntoList(data_folder +'\/FileList.txt')$/;"	kind:variable	line:10
+Input_Root_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Input_Root_dir = root_dir + '\/Patched_Image'$/;"	kind:variable	line:24
+InterP	../PostProcessing.py	/^InterP = 3 $/;"	kind:variable	line:149
+InterP	../PreProcessing_v5/ImageProcessing.py	/^        InterP = 3$/;"	kind:variable	line:112
+InterP	../PreProcessing_v5/LabelProcessing.py	/^        InterP = 3 $/;"	kind:variable	line:120
+KNNPara	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^KNNPara ={}$/;"	kind:variable	line:70
+KNNPara	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^KNNPara ={}$/;"	kind:variable	line:71
+KNNPrediction_LocalPatch	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def KNNPrediction_LocalPatch(InputDataDir, KNNPara, OriginalImPara, PatchSize, pad_para, RPCA_Para):$/;"	kind:function	line:185
+KNearestNeighbor	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^class KNearestNeighbor(object):$/;"	kind:class	line:10
+KNearestNeighbor	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	/^class KNearestNeighbor(object):$/;"	kind:class	line:11
+LabImOutput	../PreProcessing_v5/LabelProcessing.py	/^        LabImOutput = RegOutput_dir + '\/LabelRegResult_' + labelBaseName + '.nrrd'$/;"	kind:variable	line:187
+LabImOutputList	../PreProcessing_v5/LabelProcessing.py	/^    LabImOutputList = []$/;"	kind:variable	line:157
+LabelFusion	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def LabelFusion(W,Y):    $/;"	kind:function	line:118
+LabelNumber.py	../LabelNumber.py	1;"	kind:file	line:1
+LabelProcessing.py	../PreProcessing_v5/LabelProcessing.py	1;"	kind:file	line:1
+LabelRegOutput_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^LabelRegOutput_dir = Label_Result_Dir$/;"	kind:variable	line:58
+LabelResult	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def LabelResult(V, constraint):$/;"	kind:function	line:127
+Label_Result_Dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Label_Result_Dir = Output_Root_dir + '\/Label_OrganReg'+ '\/' + organ$/;"	kind:variable	line:30
+Label_Root_Dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Label_Root_Dir = Input_Root_dir + '\/GC_label_patch_Elastix\/' + organ + '_LabelMask'$/;"	kind:variable	line:26
+LocalPatach	../CRF/conditionalRandomFieldUse.py	/^LocalPatach = True$/;"	kind:variable	line:44
+LocalPatach	../CRF/crfFit.py	/^LocalPatach = False$/;"	kind:variable	line:44
+LocalPatach	../CompareThePreandtruth_8_30.py	/^LocalPatach = False$/;"	kind:variable	line:17
+LocalPatach	../CompareThePreandtruth_reg_8_30 .py	/^LocalPatach = False$/;"	kind:variable	line:17
+MVWeightCouputing3D	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def MVWeightCouputing3D(VolumIn, VolumRef,VolumeY, MajorityVotingPara):$/;"	kind:function	line:46
+MVWeightCouputing4D	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def MVWeightCouputing4D(VolumeIn3D, VolumeRefs4D, VolumeY4D, MajorityVotingPara):$/;"	kind:function	line:96
+MatrixSelect	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def MatrixSelect (XTrainMatrix, SelectNo): $/;"	kind:function	line:195
+MonteTime	../Eigenface_KNN_DS_organpatch_8_30.py	/^MonteTime = 1$/;"	kind:variable	line:64
+MonteTime	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^MonteTime = 1$/;"	kind:variable	line:64
+NN	../CRF/conditionalRandomFieldUse.py	/^NN = len(im_fns)$/;"	kind:variable	line:96
+NN	../CRF/crfFit.py	/^NN = len(im_fns)$/;"	kind:variable	line:94
+NN	../CompareThePreandtruth_8_30.py	/^NN = len(im_fns)$/;"	kind:variable	line:60
+NN	../CompareThePreandtruth_reg_8_30 .py	/^NN = len(im_fns)$/;"	kind:variable	line:60
+NormalizedDataMatrix	../PreProcessing_v5/ImageProcessing.py	/^        NormalizedDataMatrix = normalize(DataMatrix, norm='max', axis = 0)$/;"	kind:variable	line:169
+NormalizedL2NormDistance	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def NormalizedL2NormDistance(PatchIn, PatchRef):$/;"	kind:function	line:12
+NormalizedOutput_list	../PreProcessing_v5/ImageProcessing.py	/^        NormalizedOutput_list = saveImagesFromDM(NormalizedDataMatrix, makeReferenceInput_list, normalization_dir, REF)$/;"	kind:variable	line:174
+OrganLevelRegistration_8_30.py	../PatchedImage_v2/OrganLevelRegistration_8_30.py	1;"	kind:file	line:1
+OrganPatch	../CRF/conditionalRandomFieldUse.py	/^OrganPatch = False$/;"	kind:variable	line:43
+OrganPatch	../CRF/crfFit.py	/^OrganPatch = True$/;"	kind:variable	line:43
+OrganPatch	../CompareThePreandtruth_8_30.py	/^OrganPatch = True$/;"	kind:variable	line:16
+OrganPatch	../CompareThePreandtruth_reg_8_30 .py	/^OrganPatch = True$/;"	kind:variable	line:16
+OriginSet	../PreProcessing_v5/ImageProcessing.py	/^OriginSet = origin$/;"	kind:variable	line:69
+OriginSet	../PreProcessing_v5/LabelProcessing.py	/^OriginSet = ImInfo['origin']$/;"	kind:variable	line:78
+Origin_computing	../DataPreProcessing/Func_data_preprocessing.py	/^def Origin_computing(InputImageList):$/;"	kind:function	line:137
+OriginalImPara	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^OriginalImPara = {}$/;"	kind:variable	line:58
+OriginalImPara	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^OriginalImPara = {}$/;"	kind:variable	line:59
+Output_Root_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^Output_Root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/OrganReg_Elastix'$/;"	kind:variable	line:28
+PARAMGRID	../CRF/crfFit.py	/^PARAMGRID = dict(max_iterations=[20, 30],$/;"	kind:variable	line:133
+PatchMove	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def PatchMove(ImageMatrix, MovePara):$/;"	kind:function	line:108
+PatchMoveInverse	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def PatchMoveInverse(MovedImageMatrix, MovePara):$/;"	kind:function	line:135
+PatchSize	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^PatchSize = (6,6,6)$/;"	kind:variable	line:91
+PatchSize	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^PatchSize = (6,6,6)$/;"	kind:variable	line:92
+PcNo	../Eigenface_KNN_DS_organpatch_8_30.py	/^PcNo = 35$/;"	kind:variable	line:63
+PcNo	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^PcNo = 35$/;"	kind:variable	line:63
+PostProcessing.py	../PostProcessing.py	1;"	kind:file	line:1
+PredictDir	../PostProcessing.py	/^PredictDir = root + "\/PredictRecovery\/"+organ+"_PredictRecovery"$/;"	kind:variable	line:122
+REF	../PreProcessing_v5/ImageProcessing.py	/^        REF = makeReferenceInput_list[0] # just for getting the information of origin, direction and spacing.$/;"	kind:variable	line:173
+RPCA_Para	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^RPCA_Para = {}$/;"	kind:variable	line:83
+RPCA_Para	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^RPCA_Para = {}$/;"	kind:variable	line:84
+RegImOutput	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        RegImOutput= ImageRegOutput_dir+'\/ImRegResult_' + imageBaseName + '.nrrd'$/;"	kind:variable	line:106
+RegImOutput	../PreProcessing_v5/ImageProcessing.py	/^        RegImOutput= RegOutput_dir+'\/ImRegResult_' + baseName + '.nrrd'$/;"	kind:variable	line:261
+RegImOutputList	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    RegImOutputList = []$/;"	kind:variable	line:81
+RegImOutputList	../PreProcessing_v5/ImageProcessing.py	/^    RegImOutputList = []$/;"	kind:variable	line:233
+RegInput_dir	../PreProcessing_v5/ImageProcessing.py	/^    RegInput_dir = downsampleresult_dir + '\/FileList.txt'$/;"	kind:variable	line:211
+RegInput_dir	../PreProcessing_v5/ImageProcessing.py	/^    RegInput_dir = normalization_dir + '\/FileList.txt'$/;"	kind:variable	line:208
+RegInput_dir	../PreProcessing_v5/LabelProcessing.py	/^    RegInput_dir = cuttingresult_dir + '\/FileList.txt'$/;"	kind:variable	line:131
+RegInput_dir	../PreProcessing_v5/LabelProcessing.py	/^    RegInput_dir = downsampleresult_dir + '\/FileList.txt'    $/;"	kind:variable	line:129
+RegInput_list	../PreProcessing_v5/ImageProcessing.py	/^RegInput_list = readTxtIntoList (RegInput_dir)$/;"	kind:variable	line:213
+RegInput_list	../PreProcessing_v5/LabelProcessing.py	/^RegInput_list = Dpp.readTxtIntoList(RegInput_dir)$/;"	kind:variable	line:133
+RegLabOutput	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        RegLabOutput = LabelRegOutput_dir + '\/LabelRegResult_' + labelBaseName + '.nrrd'$/;"	kind:variable	line:148
+RegLabOutputList	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    RegLabOutputList = []$/;"	kind:variable	line:113
+RegOutput_dir	../PreProcessing_v5/ImageProcessing.py	/^RegOutput_dir = root_imge_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:215
+RegOutput_dir	../PreProcessing_v5/LabelProcessing.py	/^RegOutput_dir = label_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:135
+RunImageAdjust	../PreProcessing_v5/ImageProcessing.py	/^RunImageAdjust = True$/;"	kind:variable	line:30
+RunImageAdjust	../PreProcessing_v5/LabelProcessing.py	/^RunImageAdjust = True$/;"	kind:variable	line:25
+RunMakeReference	../PreProcessing_v5/ImageProcessing.py	/^RunMakeReference = False$/;"	kind:variable	line:32
+RunNormalization	../PreProcessing_v5/ImageProcessing.py	/^RunNormalization = False$/;"	kind:variable	line:33
+RunRegistration	../PreProcessing_v5/ImageProcessing.py	/^RunRegistration = False$/;"	kind:variable	line:34
+RunRegistration	../PreProcessing_v5/LabelProcessing.py	/^RunRegistration = False$/;"	kind:variable	line:27
+RundownSample	../PreProcessing_v5/ImageProcessing.py	/^RundownSample = False$/;"	kind:variable	line:31
+RundownSample	../PreProcessing_v5/LabelProcessing.py	/^RundownSample = True$/;"	kind:variable	line:26
+ShowImageInfo.py	../ShowImageInfo.py	1;"	kind:file	line:1
+SpacingSet	../PreProcessing_v5/ImageProcessing.py	/^SpacingSet = (1, 1, 1)$/;"	kind:variable	line:71
+SpacingSet	../PreProcessing_v5/LabelProcessing.py	/^SpacingSet = ImInfo['spacing']   $/;"	kind:variable	line:80
+Tbegin	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    Tbegin = time.time()    $/;"	kind:variable	line:125
+Tbegin	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    Tbegin = time.time()    $/;"	kind:variable	line:126
+Tend	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    Tend = time.time()$/;"	kind:variable	line:127
+Tend	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    Tend = time.time()$/;"	kind:variable	line:129
+TmGT_array	../CRF/conditionalRandomFieldUse.py	/^    TmGT_array = sitk.GetArrayFromImage(ImgroundTruth)$/;"	kind:variable	line:115
+TmGT_array	../CRF/crfFit.py	/^    TmGT_array = sitk.GetArrayFromImage(ImgroundTruth)$/;"	kind:variable	line:111
+TmGT_array	../CompareThePreandtruth_8_30.py	/^    TmGT_array = sitk.GetArrayFromImage(ImgroundTruth)$/;"	kind:variable	line:65
+TmGT_array	../CompareThePreandtruth_reg_8_30 .py	/^    TmGT_array = sitk.GetArrayFromImage(ImgroundTruth)$/;"	kind:variable	line:65
+WarpImageMultiDVF	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def WarpImageMultiDVF(movingImage, refImage,DVFImageList, outputImage,EXECUTE = False):$/;"	kind:function	line:420
+Weatherreceive	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^Weatherreceive = True$/;"	kind:variable	line:78
+Weatherreceive	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^Weatherreceive = True$/;"	kind:variable	line:79
+Weatherreceive	../Eigenface_KNN_DS_organpatch_8_30.py	/^Weatherreceive = 'True'$/;"	kind:variable	line:67
+Weatherreceive	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^Weatherreceive = 'True'$/;"	kind:variable	line:67
+WeightedMajorityVoting	../EigenfaceKNN/Func_GaussianWeightedMajorityVoting.py	/^def WeightedMajorityVoting(x_test, x_selected, y_selected, OriginalImPara, MajorityVotingPara, WMVconstraint = 0.5):$/;"	kind:function	line:134
+WriteDocumstoFile	../DataPreProcessing/Func_data_preprocessing.py	/^def WriteDocumstoFile(inputpath, endwith, outputpath):$/;"	kind:function	line:43
+WriteListtoFile	../DataPreProcessing/Func_data_preprocessing.py	/^def WriteListtoFile(filelist, filename):$/;"	kind:function	line:37
+X_data_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^X_data_dir = root_image_dir + '\/'+ organ + '_Imagepatch'$/;"	kind:variable	line:42
+X_data_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^X_data_dir = root_image_dir + '\/'+ organ + '_Imagepatch_withOrganReg' $/;"	kind:variable	line:43
+X_data_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^X_data_dir = root_image_dir + '\/'+ organ + '_Imagepatch'$/;"	kind:variable	line:46
+X_data_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^X_data_dir = root_image_dir + '\/'+ organ + '_Imagepatch_withOrganReg' $/;"	kind:variable	line:46
+X_data_list	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^X_data_list = Dpp.readTxtIntoList(X_data_dir + '\/FileList.txt')$/;"	kind:variable	line:48
+X_data_list	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^X_data_list = Dpp.readTxtIntoList(X_data_dir + '\/FileList.txt')$/;"	kind:variable	line:49
+X_data_list	../Eigenface_KNN_DS_organpatch_8_30.py	/^X_data_list = Dpp.readTxtIntoList(X_data_dir + '\/FileList.txt')$/;"	kind:variable	line:50
+X_data_list	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^X_data_list = Dpp.readTxtIntoList(X_data_dir + '\/FileList.txt')$/;"	kind:variable	line:50
+Y_data_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^Y_data_dir = root_label_dir +'\/'+ organ + '_Labelpatch'$/;"	kind:variable	line:43
+Y_data_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^Y_data_dir = root_label_dir +'\/'+ organ + '_Labelpatch_withOrganReg' $/;"	kind:variable	line:44
+Y_data_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^Y_data_dir = root_label_dir +'\/'+ organ + '_Labelpatch'$/;"	kind:variable	line:47
+Y_data_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^Y_data_dir = root_label_dir +'\/'+ organ + '_Labelpatch_withOrganReg'   $/;"	kind:variable	line:47
+Y_data_list	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^Y_data_list = Dpp.readTxtIntoList(Y_data_dir + '\/FileList.txt')$/;"	kind:variable	line:49
+Y_data_list	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^Y_data_list = Dpp.readTxtIntoList(Y_data_dir + '\/FileList.txt')$/;"	kind:variable	line:50
+Y_data_list	../Eigenface_KNN_DS_organpatch_8_30.py	/^Y_data_list = Dpp.readTxtIntoList(Y_data_dir + '\/FileList.txt')$/;"	kind:variable	line:51
+Y_data_list	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^Y_data_list = Dpp.readTxtIntoList(Y_data_dir + '\/FileList.txt')$/;"	kind:variable	line:51
+__author__	../core/ealm.py	/^__author__  = "Roland Kwitt, Kitware Inc., 2013"$/;"	kind:variable	line:21
+__author__	../core/ialm_pca.py	/^__author__  = "Roland Kwitt, Kitware Inc., 2013"$/;"	kind:variable	line:27
+__author__	../core/op.py	/^__author__  = "Roland Kwitt, Kitware Inc., 2013"$/;"	kind:variable	line:20
+__email__	../core/ealm.py	/^__email__   = "E-Mail: roland.kwitt@kitware.com"$/;"	kind:variable	line:22
+__email__	../core/ialm_pca.py	/^__email__   = "E-Mail: roland.kwitt@kitware.com"$/;"	kind:variable	line:28
+__email__	../core/op.py	/^__email__   = "E-Mail: roland.kwitt@kitware.com"$/;"	kind:variable	line:21
+__init__	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def __init__(self):$/;"	kind:member	line:13
+__init__	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	/^  def __init__(self, algorithm='auto', metric='minkowski', p=2):$/;"	kind:member	line:14
+__init__.py	../DataPreProcessing/__init__.py	1;"	kind:file	line:1
+__init__.py	../EigenfaceKNN/__init__.py	1;"	kind:file	line:1
+__init__.py	../core/__init__.py	1;"	kind:file	line:1
+__iter_C	../core/op.py	/^def __iter_C(C, epsilon):$/;"	kind:function	line:33
+__iter_L	../core/op.py	/^def __iter_L(L, epsilon):$/;"	kind:function	line:49
+__license__	../core/ealm.py	/^__license__ = "Apache License, Version 2.0"$/;"	kind:variable	line:20
+__license__	../core/ialm_pca.py	/^__license__ = "Apache License, Version 2.0"$/;"	kind:variable	line:26
+__license__	../core/op.py	/^__license__ = "Apache License, Version 2.0"$/;"	kind:variable	line:19
+__status__	../DataPreProcessing/Func_atlas_selection.py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../Eigenface_KNN_DS_organpatch_8_30.py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^__status__  = "Development"$/;"	kind:variable	line:1
+__status__	../core/ealm.py	/^__status__  = "Development"$/;"	kind:variable	line:23
+__status__	../core/ialm_pca.py	/^__status__  = "Development"$/;"	kind:variable	line:29
+__status__	../core/op.py	/^__status__  = "Development"$/;"	kind:variable	line:22
+affineRegistrationStep	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def affineRegistrationStep(im_fn_list, Result_FileName,reference_im_fn):$/;"	kind:function	line:23
+all_images	../CRF/crfFit.py	/^all_images = []$/;"	kind:variable	line:96
+all_probs	../CRF/crfFit.py	/^all_probs = []$/;"	kind:variable	line:97
+all_truths	../CRF/crfFit.py	/^all_truths = []$/;"	kind:variable	line:98
+applyLinearTransform	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def applyLinearTransform(inputImage,refImage,transform, newInputImage,EXECUTE = False):$/;"	kind:function	line:458
+baseName	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:146
+baseName	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:87
+baseName	../PreProcessing_v5/ImageProcessing.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:191
+baseName	../PreProcessing_v5/ImageProcessing.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:237
+baseName	../PreProcessing_v5/ImageProcessing.py	/^    baseName = os.path.basename(name)$/;"	kind:variable	line:142
+best_k	../Eigenface_KNN_DS_organpatch_8_30.py	/^best_k = 10$/;"	kind:variable	line:65
+best_k	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^best_k = 10$/;"	kind:variable	line:65
+bilateral_intensity_std	../CRF/conditionalRandomFieldUse.py	/^                 bilateral_intensity_std=0.0166,$/;"	kind:variable	line:106
+bilateral_intensity_std	../CRF/crfFit.py	/^                 bilateral_intensity_std=[1.86],$/;"	kind:variable	line:144
+bilateral_w	../CRF/conditionalRandomFieldUse.py	/^                 bilateral_w=51.066,$/;"	kind:variable	line:107
+bilateral_w	../CRF/crfFit.py	/^                 bilateral_w=expon(scale=6, loc=1),)$/;"	kind:variable	line:148
+bilateral_x_std	../CRF/conditionalRandomFieldUse.py	/^                 bilateral_x_std=1.3,$/;"	kind:variable	line:103
+bilateral_x_std	../CRF/crfFit.py	/^                 bilateral_x_std=[1.86],$/;"	kind:variable	line:138
+bilateral_y_std	../CRF/conditionalRandomFieldUse.py	/^                 bilateral_y_std=1.3,$/;"	kind:variable	line:104
+bilateral_z_std	../CRF/conditionalRandomFieldUse.py	/^                 bilateral_z_std=1.3,$/;"	kind:variable	line:105
+central_point	../PostProcessing.py	/^central_point = np.load(CWD+'\/PatchedImage\/central_point.npy')$/;"	kind:variable	line:114
+classifier	../Eigenface_KNN_DS_organpatch_8_30.py	/^    classifier = KNNSklearn.KNearestNeighbor(algorithm='auto',metric='minkowski', p=2)$/;"	kind:variable	line:137
+classifier	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    classifier = KNNSklearn.KNearestNeighbor(algorithm='auto',metric='minkowski', p=2)$/;"	kind:variable	line:137
+composeMultipleDVFs	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def composeMultipleDVFs(refImage,DVFImageList, outputDVFImage,EXECUTE = False):$/;"	kind:function	line:439
+computeLabelStatistics	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def computeLabelStatistics(inputIm, labelmapIm, tumorMaskImage = None):$/;"	kind:function	line:27
+compute_distances_no_loops	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def compute_distances_no_loops(self, X):$/;"	kind:member	line:108
+compute_distances_one_loop	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def compute_distances_one_loop(self, X):$/;"	kind:member	line:86
+compute_distances_two_loops	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def compute_distances_two_loops(self, X):$/;"	kind:member	line:56
+conditionalRandomFieldUse.py	../CRF/conditionalRandomFieldUse.py	1;"	kind:file	line:1
+constraint1	../CRF/conditionalRandomFieldUse.py	/^constraint1 = 0.3$/;"	kind:variable	line:46
+constraint1	../CRF/crfFit.py	/^constraint1 = 0.3$/;"	kind:variable	line:46
+constraintPredict	../CompareThePreandtruth_8_30.py	/^constraintPredict = 0.3$/;"	kind:variable	line:20
+constraintPredict	../CompareThePreandtruth_reg_8_30 .py	/^constraintPredict = 0.3$/;"	kind:variable	line:20
+constraintgroundtruth	../CRF/conditionalRandomFieldUse.py	/^constraintgroundtruth = 0.02$/;"	kind:variable	line:47
+constraintgroundtruth	../CRF/crfFit.py	/^constraintgroundtruth = 0.02$/;"	kind:variable	line:47
+constraintgroundtruth	../CompareThePreandtruth_8_30.py	/^constraintgroundtruth = 0.02$/;"	kind:variable	line:21
+constraintgroundtruth	../CompareThePreandtruth_reg_8_30 .py	/^constraintgroundtruth = 0.02$/;"	kind:variable	line:21
+createJacobianDeterminantImage	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def createJacobianDeterminantImage(imageDimension, dvfImage,outputIm,EXECUTE = False):$/;"	kind:function	line:322
+crfFit.py	../CRF/crfFit.py	1;"	kind:file	line:1
+crfImPred	../CRF/conditionalRandomFieldUse.py	/^    crfImPred = pro.set_data_and_run(rawimage_array, probs)$/;"	kind:variable	line:125
+crfImageModification	../CRF/conditionalRandomFieldUse.py	/^def crfImageModification(InputImageList, result_dir, threshold1, threshold2 = 10**(-2)):$/;"	kind:function	line:20
+crfImageModification	../CRF/crfFit.py	/^def crfImageModification(InputImageList, result_dir, threshold1, threshold2 = 10**(-2)):$/;"	kind:function	line:20
+crfModify_list	../CRF/conditionalRandomFieldUse.py	/^crfModify_list = im_fns$/;"	kind:variable	line:75
+crfModify_list	../CRF/crfFit.py	/^crfModify_list = crfImageModification(im_fns, result_dir_pre, threshold1 = 0.3,threshold2 = 10**(-2))$/;"	kind:variable	line:73
+currentPyFile	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^currentPyFile = os.path.realpath(__file__)$/;"	kind:variable	line:38
+currentPyFile	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^currentPyFile = os.path.realpath(__file__)$/;"	kind:variable	line:39
+currentPyFile	../Eigenface_KNN_DS_organpatch_8_30.py	/^currentPyFile = os.path.realpath(__file__)$/;"	kind:variable	line:42
+currentPyFile	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^currentPyFile = os.path.realpath(__file__)$/;"	kind:variable	line:42
+cutrange	../PreProcessing_v5/ImageProcessing.py	/^    cutrange = [[0.0,1.0],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:85
+cutrange	../PreProcessing_v5/ImageProcessing.py	/^    cutrange = [[0.3,0.8],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:82
+cutrange	../PreProcessing_v5/LabelProcessing.py	/^    cutrange = [[0.0,1.0],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:96
+cutrange	../PreProcessing_v5/LabelProcessing.py	/^    cutrange = [[0.3,0.8],[0.0,1.0],[0.0,1.0]]    $/;"	kind:variable	line:92
+cuttinginput_list	../PreProcessing_v5/ImageProcessing.py	/^    cuttinginput_list = sizeadjust_list$/;"	kind:variable	line:91
+cuttinginput_list	../PreProcessing_v5/LabelProcessing.py	/^    cuttinginput_list = sizeadjust_list$/;"	kind:variable	line:103
+cuttingresult_dir	../PreProcessing_v5/ImageProcessing.py	/^cuttingresult_dir = root_imge_dir + '\/cuttingresult'$/;"	kind:variable	line:62
+cuttingresult_dir	../PreProcessing_v5/LabelProcessing.py	/^cuttingresult_dir = label_dir + '\/cuttingresult'$/;"	kind:variable	line:69
+cuttingresult_list	../PreProcessing_v5/LabelProcessing.py	/^    cuttingresult_list = Dpp.ImageCuttingwithDim(cuttinginput_list, cuttingresult_dir, ImInfo['dimCut'])    $/;"	kind:variable	line:104
+data_folder	../PreProcessing_v5/ImageProcessing.py	/^data_folder = '\/media\/louis\/Volume\/ResearchData\/visceral_used\/GC_Volumes'$/;"	kind:variable	line:49
+data_folder	../PreProcessing_v5/LabelProcessing.py	/^data_folder = '\/media\/louis\/Volume\/ResearchData\/visceral_used\/GC_Labels\/'+ organ $/;"	kind:variable	line:55
+data_folder	../ShowImageInfo.py	/^data_folder = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Full_Image\/GC_Volumes_adjustment\/cuttingresult'$/;"	kind:variable	line:9
+data_num	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^data_num = KNNPara['data_num']$/;"	kind:variable	line:114
+data_num	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^data_num = KNNPara['data_num']$/;"	kind:variable	line:115
+data_num	../Eigenface_KNN_DS_organpatch_8_30.py	/^data_num = 36$/;"	kind:variable	line:60
+data_num	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^data_num = 36$/;"	kind:variable	line:60
+dice	../Eigenface_KNN_DS_organpatch_8_30.py	/^    dice=[]$/;"	kind:variable	line:163
+dice	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    dice=[]$/;"	kind:variable	line:163
+diceScore	../CRF/conditionalRandomFieldUse.py	/^diceScore = np.zeros((NN,))    $/;"	kind:variable	line:97
+diceScore	../CompareThePreandtruth_8_30.py	/^diceScore = np.zeros((NN,))    $/;"	kind:variable	line:61
+diceScore	../CompareThePreandtruth_reg_8_30 .py	/^diceScore = np.zeros((NN,))    $/;"	kind:variable	line:61
+dice_Statistics	../CRF/conditionalRandomFieldUse.py	/^dice_Statistics = {}$/;"	kind:variable	line:130
+dice_Statistics	../CompareThePreandtruth_8_30.py	/^dice_Statistics = {}$/;"	kind:variable	line:75
+dice_Statistics	../CompareThePreandtruth_reg_8_30 .py	/^dice_Statistics = {}$/;"	kind:variable	line:75
+dice_Statistics	../Eigenface_KNN_DS_organpatch_8_30.py	/^    dice_Statistics = {}$/;"	kind:variable	line:170
+dice_Statistics	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    dice_Statistics = {}$/;"	kind:variable	line:170
+dice_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^dice_matrix = np.zeros((test_num, 1))$/;"	kind:variable	line:66
+dice_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^dice_matrix = np.zeros((test_num, 1))$/;"	kind:variable	line:66
+dice_matrix_mean	../Eigenface_KNN_DS_organpatch_8_30.py	/^    dice_matrix_mean = np.mean(dice_matrix,axis=1)    $/;"	kind:variable	line:169
+dice_matrix_mean	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    dice_matrix_mean = np.mean(dice_matrix,axis=1)    $/;"	kind:variable	line:169
+dice_temp	../Eigenface_KNN_DS_organpatch_8_30.py	/^        dice_temp = EigKNN.DiceScoreCalculation(y_test[i],(y_test_pred.T)[i])$/;"	kind:variable	line:165
+dice_temp	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^        dice_temp = EigKNN.DiceScoreCalculation(y_test[i],(y_test_pred.T)[i])$/;"	kind:variable	line:165
+distance_canculating	../DataPreProcessing/Func_atlas_selection.py	/^def distance_canculating(imageA,imageB):$/;"	kind:function	line:18
+distance_canculating_matrix	../DataPreProcessing/Func_atlas_selection.py	/^def distance_canculating_matrix(InputImages,RefImage):$/;"	kind:function	line:34
+downsamplefactor	../PreProcessing_v5/ImageProcessing.py	/^        downsamplefactor = (0.5, 0.5, 0.5) # for different dimension$/;"	kind:variable	line:113
+downsamplefactor	../PreProcessing_v5/LabelProcessing.py	/^        downsamplefactor = (0.5, 0.5, 0.5) # for different dimension$/;"	kind:variable	line:121
+downsampleinput_dir	../PreProcessing_v5/ImageProcessing.py	/^    downsampleinput_dir = cuttingresult_dir+ '\/FileList.txt'$/;"	kind:variable	line:101
+downsampleinput_dir	../PreProcessing_v5/LabelProcessing.py	/^    downsampleinput_dir = cuttingresult_dir+ '\/FileList.txt'$/;"	kind:variable	line:110
+downsampleinput_list	../PreProcessing_v5/ImageProcessing.py	/^    downsampleinput_list = readTxtIntoList(downsampleinput_dir)$/;"	kind:variable	line:102
+downsampleinput_list	../PreProcessing_v5/LabelProcessing.py	/^    downsampleinput_list = Dpp.readTxtIntoList(downsampleinput_dir)$/;"	kind:variable	line:111
+downsampleresult_dir	../PreProcessing_v5/ImageProcessing.py	/^    downsampleresult_dir = root_imge_dir + '\/downsampleresult'$/;"	kind:variable	line:104
+downsampleresult_dir	../PreProcessing_v5/LabelProcessing.py	/^    downsampleresult_dir = label_dir + '\/downsampleresult'$/;"	kind:variable	line:112
+downsampleresult_list	../PreProcessing_v5/ImageProcessing.py	/^        downsampleresult_list = imageDownSample(downsampleinput_list, downsampleresult_dir, downsamplefactor, InterP, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:114
+downsampleresult_list	../PreProcessing_v5/LabelProcessing.py	/^        downsampleresult_list = Dpp.imageDownSample(downsampleinput_list, downsampleresult_dir,$/;"	kind:variable	line:122
+dynamic_z	../CRF/conditionalRandomFieldUse.py	/^                 dynamic_z=False,$/;"	kind:variable	line:108
+e	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    e = time.time()$/;"	kind:variable	line:153
+e	../PreProcessing_v5/ImageProcessing.py	/^    e = time.time()$/;"	kind:variable	line:268
+e	../PreProcessing_v5/LabelProcessing.py	/^    e = time.time()$/;"	kind:variable	line:193
+ealm.py	../core/ealm.py	1;"	kind:file	line:1
+fixedIm	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    fixedIm =  reference_im_fn    $/;"	kind:variable	line:70
+fixedIm	../PreProcessing_v5/ImageProcessing.py	/^    fixedIm =  reference_im_fn$/;"	kind:variable	line:227
+fixedImMask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    fixedImMask = referenceImageMask$/;"	kind:variable	line:75
+fixedImage	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    fixedImage = sitk.ReadImage(fixedIm)$/;"	kind:variable	line:71
+fixedImage	../PreProcessing_v5/ImageProcessing.py	/^    fixedImage = sitk.ReadImage(fixedIm)$/;"	kind:variable	line:228
+fixedImageMask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    fixedImageMask = sitk.Cast(fixedImageMask, sitk.sitkUInt8)$/;"	kind:variable	line:77
+fixedImageMask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    fixedImageMask = sitk.ReadImage(fixedImMask)$/;"	kind:variable	line:76
+fn	../PreProcessing_v5/ImageProcessing.py	/^        fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:187
+fn	../PreProcessing_v5/ImageProcessing.py	/^    fn = reference_dir + '\/reference_WithoutNorm'+'.nrrd'$/;"	kind:variable	line:138
+fnRecord	../PreProcessing_v5/ImageProcessing.py	/^        fnRecord = '\/reference_WithNorm_' + baseName + '.nrrd'$/;"	kind:variable	line:192
+fnRecord	../PreProcessing_v5/ImageProcessing.py	/^    fnRecord ='\/reference_WithoutNorm_' + baseName + '.nrrd'$/;"	kind:variable	line:143
+genInverseDVF	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def genInverseDVF(DVFImage, InverseDVFImage, EXECUTE = False):$/;"	kind:function	line:516
+geodesicDistance3D	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def geodesicDistance3D(inputImage, referenceImage, outputTransformPrefix):$/;"	kind:function	line:256
+getANTSOutputVelocityNorm	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def getANTSOutputVelocityNorm(logFile):$/;"	kind:function	line:245
+gridVisDVF	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def gridVisDVF(dvfImFileName,sliceNum = -1,titleString = 'DVF',saveFigPath ='.',deformedImFileName = None, contourNum=40):$/;"	kind:function	line:136
+groundTruth_list	../CRF/conditionalRandomFieldUse.py	/^groundTruth_list = ImageModificationAfterTransform(im_fns, result_dir_true, constraintgroundtruth)$/;"	kind:variable	line:92
+groundTruth_list	../CRF/crfFit.py	/^groundTruth_list = ImageModificationAfterTransform(im_fns, result_dir_true, constraintgroundtruth)$/;"	kind:variable	line:91
+groundTruth_list	../CompareThePreandtruth_8_30.py	/^groundTruth_list = Dpp.ImageModificationAfterTransform(im_fns, result_dir_true, constraintgroundtruth)$/;"	kind:variable	line:57
+groundTruth_list	../CompareThePreandtruth_reg_8_30 .py	/^groundTruth_list = Dpp.ImageModificationAfterTransform(im_fns, result_dir_true, constraintgroundtruth)$/;"	kind:variable	line:57
+ialm_pca.py	../core/ialm_pca.py	1;"	kind:file	line:1
+iamge_data_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    iamge_data_dir = root_dir + '\/OrganReg_Elastix' + '\/Volume_OrganReg' + '\/' + organ            $/;"	kind:variable	line:43
+iamge_data_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    regIfLinear + '_Elastix'   $/;"	kind:variable	line:55
+iamge_data_dir	../PatchedImage_v2/make_mask.py	/^regIfLinear + '_Elastix'   $/;"	kind:variable	line:36
+iamges_mask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^iamges_mask = Dpp.readTxtIntoList(Imagereginput_dir+'\/FileList.txt')$/;"	kind:variable	line:50
+ignore_memory	../CRF/conditionalRandomFieldUse.py	/^                 ignore_memory=False,$/;"	kind:variable	line:109
+im_file_list_Eigenface_basis	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_Eigenface_basis = []$/;"	kind:variable	line:91
+im_file_list_Eigenface_basis	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_Eigenface_basis = copy.copy(im_file_list_train_X)$/;"	kind:variable	line:92
+im_file_list_Eigenface_basis	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_Eigenface_basis = []$/;"	kind:variable	line:91
+im_file_list_Eigenface_basis	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_Eigenface_basis = copy.copy(im_file_list_train_X)$/;"	kind:variable	line:92
+im_file_list_test_X	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_test_X=[]$/;"	kind:variable	line:117
+im_file_list_test_X	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_test_X=[]$/;"	kind:variable	line:117
+im_file_list_test_Y	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_test_Y=[]$/;"	kind:variable	line:126
+im_file_list_test_Y	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_test_Y=[]$/;"	kind:variable	line:126
+im_file_list_train_X	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_train_X=[]$/;"	kind:variable	line:86
+im_file_list_train_X	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_train_X=[]$/;"	kind:variable	line:86
+im_file_list_train_Y	../Eigenface_KNN_DS_organpatch_8_30.py	/^    im_file_list_train_Y=[]$/;"	kind:variable	line:108
+im_file_list_train_Y	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    im_file_list_train_Y=[]$/;"	kind:variable	line:108
+im_fns	../CRF/conditionalRandomFieldUse.py	/^im_fns = readTxtIntoList(image_dir + '\/' + 'FileList.txt')$/;"	kind:variable	line:53
+im_fns	../CRF/conditionalRandomFieldUse.py	/^im_fns = readTxtIntoList(result_dir_pre + '\/' + 'FileList.txt')$/;"	kind:variable	line:72
+im_fns	../CRF/conditionalRandomFieldUse.py	/^im_fns = readTxtIntoList(result_dir_true + '\/' + 'FileList.txt')$/;"	kind:variable	line:91
+im_fns	../CRF/crfFit.py	/^im_fns = readTxtIntoList(image_dir + '\/' + 'FileList.txt')$/;"	kind:variable	line:53
+im_fns	../CRF/crfFit.py	/^im_fns = readTxtIntoList(result_dir_pre + '\/' + 'FileList.txt')$/;"	kind:variable	line:72
+im_fns	../CRF/crfFit.py	/^im_fns = readTxtIntoList(result_dir_true + '\/' + 'FileList.txt')$/;"	kind:variable	line:90
+im_fns	../CompareThePreandtruth_8_30.py	/^im_fns = Dpp.readTxtIntoList(result_dir_pre + '\/' + 'FileList.txt')$/;"	kind:variable	line:39
+im_fns	../CompareThePreandtruth_8_30.py	/^im_fns = Dpp.readTxtIntoList(result_dir_true + '\/' + 'FileList.txt')$/;"	kind:variable	line:56
+im_fns	../CompareThePreandtruth_reg_8_30 .py	/^im_fns = Dpp.readTxtIntoList(result_dir_pre + '\/' + 'FileList.txt')$/;"	kind:variable	line:39
+im_fns	../CompareThePreandtruth_reg_8_30 .py	/^im_fns = Dpp.readTxtIntoList(result_dir_true + '\/' + 'FileList.txt')$/;"	kind:variable	line:56
+im_fns	../PatchedImage_v2/Image_patch_8_30.py	/^im_fns = Dpp.readTxtIntoList(iamge_data_dir + '\/FileList.txt')$/;"	kind:variable	line:63
+im_fns	../PatchedImage_v2/make_mask.py	/^im_fns = Dpp.readTxtIntoList(iamge_data_dir + '\/FileList.txt')$/;"	kind:variable	line:40
+im_fns	../PreProcessing_v5/ImageProcessing.py	/^im_fns = []$/;"	kind:variable	line:52
+im_fns	../PreProcessing_v5/LabelProcessing.py	/^im_fns = Dpp.readTxtIntoList(data_folder +'\/FileList.txt')$/;"	kind:variable	line:56
+im_fns_image	../PatchedImage_v2/Image_patch_8_30.py	/^im_fns_image=[]$/;"	kind:variable	line:67
+im_fns_image	../PatchedImage_v2/make_mask.py	/^im_fns_image=[]$/;"	kind:variable	line:44
+im_fns_label	../PatchedImage_v2/Image_patch_8_30.py	/^im_fns_label = Dpp.readTxtIntoList(label_data_dir + '\/FileList.txt')$/;"	kind:variable	line:62
+im_fns_label	../PatchedImage_v2/make_mask.py	/^im_fns_label = Dpp.readTxtIntoList(label_data_dir + '\/FileList.txt')$/;"	kind:variable	line:39
+im_fns_label	../PreProcessing_v5/AfTransModification.py	/^im_fns_label = Dpp.readTxtIntoList(label_data_dir + '\/FileList.txt')$/;"	kind:variable	line:33
+im_fns_raw	../PreProcessing_v5/ImageProcessing.py	/^im_fns_raw = readTxtIntoList(data_folder +'\/FileList.txt')$/;"	kind:variable	line:50
+im_ref	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^im_ref = sitk.ReadImage(reference_im_fn)$/;"	kind:variable	line:52
+im_ref	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^im_ref = sitk.ReadImage(reference_im_fn)$/;"	kind:variable	line:53
+im_ref	../Eigenface_KNN_DS_organpatch_8_30.py	/^im_ref = sitk.ReadImage(reference_im_fn)$/;"	kind:variable	line:71
+im_ref	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^im_ref = sitk.ReadImage(reference_im_fn)$/;"	kind:variable	line:71
+im_ref_array	../Eigenface_KNN_DS_organpatch_8_30.py	/^im_ref_array = sitk.GetArrayFromImage(im_ref) # get numpy array$/;"	kind:variable	line:72
+im_ref_array	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^im_ref_array = sitk.GetArrayFromImage(im_ref) # get numpy array$/;"	kind:variable	line:72
+image	../ShowImageInfo.py	/^    image = sitk.ReadImage(InputImageList[i])$/;"	kind:variable	line:13
+imageBaseName	../PatchedImage_v2/Image_patch_8_30.py	/^    imageBaseName = string.join(imageNameList+labelBaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:71
+imageBaseName	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        imageBaseName = string.join(baseName.split("_")[-4:], "_")$/;"	kind:variable	line:88
+imageBaseName	../PatchedImage_v2/make_mask.py	/^    imageBaseName = string.join(imageNameList+labelBaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:48
+imageBaseName	../PreProcessing_v5/LabelProcessing.py	/^        imageBaseName = string.join(labelBaseName.split("_")[0:-2], "_")$/;"	kind:variable	line:154
+imageDownSample	../DataPreProcessing/Func_data_preprocessing.py	/^def imageDownSample(InputImageList, output, downsamplefactor, InterP, SpacingSet=None, Originset = None, DirectiongSet = None):$/;"	kind:function	line:213
+imageNameList	../PatchedImage_v2/Image_patch_8_30.py	/^imageNameList = imname.split("_")[0:-4]$/;"	kind:variable	line:65
+imageNameList	../PatchedImage_v2/make_mask.py	/^imageNameList = imname.split("_")[0:-4]$/;"	kind:variable	line:42
+imageSizeAdjust	../DataPreProcessing/Func_data_preprocessing.py	/^def imageSizeAdjust(InputImageList, outputdir, cutrange, SpacingSet=None, Originset = None, DirectiongSet = None):$/;"	kind:function	line:96
+image_array	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^image_array = sitk.GetArrayFromImage(im_ref) # get numpy array$/;"	kind:variable	line:53
+image_array	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^image_array = sitk.GetArrayFromImage(im_ref) # get numpy array$/;"	kind:variable	line:54
+image_array	../PreProcessing_v5/ImageProcessing.py	/^        image_array = np.reshape(SelImage,ImPara['dim'])$/;"	kind:variable	line:181
+image_array	../PreProcessing_v5/ImageProcessing.py	/^    image_array = np.reshape(SelImage,ImPara['dim'])$/;"	kind:variable	line:133
+image_array	../ShowImageInfo.py	/^    image_array = sitk.GetArrayFromImage(image) # get numpy array$/;"	kind:variable	line:14
+image_dir	../CRF/conditionalRandomFieldUse.py	/^image_dir = root + '\/Patched_Image\/GC_Volumes_patch'+'\/'+organ + '_Imagepatch'$/;"	kind:variable	line:52
+image_dir	../CRF/crfFit.py	/^image_dir = root + '\/Patched_Image\/GC_Volumes_patch'+'\/'+organ + '_Imagepatch'$/;"	kind:variable	line:52
+image_patch	../DataPreProcessing/Func_image_patch.py	/^def image_patch(im_dir_list, PatchIndice, reference_image,outputPrefix):$/;"	kind:function	line:164
+image_patch_calculate	../DataPreProcessing/Func_image_patch.py	/^def image_patch_calculate(im_dir_list):$/;"	kind:function	line:23
+image_patch_padding	../DataPreProcessing/Func_image_patch.py	/^def image_patch_padding (im_dir_list, PatchIndice, reference_image,outputPrefix):$/;"	kind:function	line:54
+image_result_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    image_result_dir = root_dir + '\/Patched_Image\/GC_Volumes_patch' + '_Elastix' $/;"	kind:variable	line:45
+image_result_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    image_result_dir = root_dir + '\/Patched_Image\/GC_Volumes_patch' + '_Elastix' $/;"	kind:variable	line:57
+image_result_dir	../PatchedImage_v2/make_mask.py	/^image_result_dir = root_dir + '\/Patched_Image\/GC_Volumes_patch' + '_Elastix' $/;"	kind:variable	line:51
+image_select	../DataPreProcessing/Func_atlas_selection.py	/^def image_select(InputImage, SelImageNum):$/;"	kind:function	line:50
+image_select_one	../DataPreProcessing/Func_atlas_selection.py	/^def image_select_one(InputImage):$/;"	kind:function	line:94
+images	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^images = Dpp.readTxtIntoList(Imagereginput_dir+'\/InputImageList.txt')$/;"	kind:variable	line:49
+imagezoom	../PostProcessing.py	/^def imagezoom(InputImageList, output,samplefactor, InterP):$/;"	kind:function	line:17
+img	../PreProcessing_v5/ImageProcessing.py	/^        img = sitk.GetImageFromArray(image_array)$/;"	kind:variable	line:182
+img	../PreProcessing_v5/ImageProcessing.py	/^    img = sitk.GetImageFromArray(image_array)$/;"	kind:variable	line:134
+l	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    l = e - s$/;"	kind:variable	line:154
+l	../PreProcessing_v5/ImageProcessing.py	/^    l = e - s$/;"	kind:variable	line:269
+l	../PreProcessing_v5/LabelProcessing.py	/^    l = e - s$/;"	kind:variable	line:194
+labelBaseName	../PatchedImage_v2/Image_patch_8_30.py	/^    labelBaseName = os.path.basename(name)$/;"	kind:variable	line:70
+labelBaseName	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        labelBaseName = string.join(baseName.split("_")[-6:], "_")$/;"	kind:variable	line:147
+labelBaseName	../PatchedImage_v2/make_mask.py	/^    labelBaseName = os.path.basename(name)$/;"	kind:variable	line:47
+labelBaseName	../PreProcessing_v5/LabelProcessing.py	/^        labelBaseName = os.path.basename(name)$/;"	kind:variable	line:153
+labelBaseName	../PreProcessing_v5/LabelProcessing.py	/^        labelBaseName = os.path.basename(name)$/;"	kind:variable	line:186
+labelNo	../LabelNumber.py	/^    labelNo=1$/;"	kind:variable	line:72
+labelNo	../LabelNumber.py	/^    labelNo=2$/;"	kind:variable	line:80
+labelNo	../LabelNumber.py	/^    labelNo=3$/;"	kind:variable	line:88
+labelNo	../LabelNumber.py	/^    labelNo=4$/;"	kind:variable	line:96
+labelNo	../LabelNumber.py	/^    labelNo=5$/;"	kind:variable	line:104
+labelNumbering	../LabelNumber.py	/^def labelNumbering(labeldir, outputdir, labelNo, threshold = 10**(-2)):$/;"	kind:function	line:18
+label_data_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    '\/Modification_Regtrans_' + regIfLinear + '_Elastix'  $/;"	kind:variable	line:53
+label_data_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    label_data_dir = root_dir + '\/OrganReg_Elastix' + '\/Label_OrganReg' + '\/' + organ$/;"	kind:variable	line:42
+label_data_dir	../PatchedImage_v2/make_mask.py	/^'\/Modification_Regtrans_' + regIfLinear + '_Elastix'  $/;"	kind:variable	line:34
+label_data_dir	../PreProcessing_v5/AfTransModification.py	/^                 '\/Regtrans_' + regIfLinear +'_Elastix'$/;"	kind:variable	line:24
+label_dir	../PreProcessing_v5/LabelProcessing.py	/^label_dir = root_label_dir + '\/'+ organ$/;"	kind:variable	line:64
+label_result_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    label_result_dir = root_dir + '\/Patched_Image\/GC_label_patch' + '_Elastix' $/;"	kind:variable	line:46
+label_result_dir	../PatchedImage_v2/Image_patch_8_30.py	/^    label_result_dir = root_dir + '\/Patched_Image\/GC_label_patch' + '_Elastix' $/;"	kind:variable	line:58
+label_result_dir	../PatchedImage_v2/make_mask.py	/^label_result_dir = root_dir + '\/Patched_Image\/GC_label_patch' + '_Elastix' $/;"	kind:variable	line:52
+labelfusion	../LabelNumber.py	/^def labelfusion(inputlist, outputdir):$/;"	kind:function	line:33
+labelin	../LabelNumber.py	/^    labelin = root + "\/UpsampleResult\/"+organ+"_UpsampleResult\/" + prefix + organList[i] + ".nrrd"$/;"	kind:variable	line:101
+labelin	../LabelNumber.py	/^    labelin = root + "\/UpsampleResult\/"+organ+"_UpsampleResult\/" + prefix + organList[i] + ".nrrd"$/;"	kind:variable	line:69
+labelin	../LabelNumber.py	/^    labelin = root + "\/UpsampleResult\/"+organ+"_UpsampleResult\/" + prefix + organList[i] + ".nrrd"$/;"	kind:variable	line:77
+labelin	../LabelNumber.py	/^    labelin = root + "\/UpsampleResult\/"+organ+"_UpsampleResult\/" + prefix + organList[i] + ".nrrd"$/;"	kind:variable	line:85
+labelin	../LabelNumber.py	/^    labelin = root + "\/UpsampleResult\/"+organ+"_UpsampleResult\/" + prefix + organList[i] + ".nrrd"$/;"	kind:variable	line:93
+labelout	../LabelNumber.py	/^    labelout = root + "\/MultiOrgan\/" + organ + "_predict_" + organList[i]$/;"	kind:variable	line:70
+labelout	../LabelNumber.py	/^    labelout = root + "\/MultiOrgan\/"+organ+"_predict_"$/;"	kind:variable	line:102
+labelout	../LabelNumber.py	/^    labelout = root + "\/MultiOrgan\/"+organ+"_predict_"$/;"	kind:variable	line:78
+labelout	../LabelNumber.py	/^    labelout = root + "\/MultiOrgan\/"+organ+"_predict_"$/;"	kind:variable	line:86
+labelout	../LabelNumber.py	/^    labelout = root + "\/MultiOrgan\/"+organ+"_predict_"$/;"	kind:variable	line:94
+labelreginput_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^labelreginput_dir = Label_Root_Dir$/;"	kind:variable	line:55
+labels	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^labels = Dpp.readTxtIntoList(labelreginput_dir+'\/InputLabelList.txt')$/;"	kind:variable	line:56
+labels_mask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^labels_mask = Dpp.readTxtIntoList(labelreginput_dir+'\/FileList.txt')$/;"	kind:variable	line:57
+lamda	../Eigenface_KNN_DS_organpatch_8_30.py	/^lamda = 0.7$/;"	kind:variable	line:56
+lamda	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^lamda = 0.7$/;"	kind:variable	line:56
+logFile	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    logFile = open(logFileDir, 'w')    $/;"	kind:variable	line:68
+logFile	../PreProcessing_v5/ImageProcessing.py	/^    logFile = open(logFileDir, 'w')$/;"	kind:variable	line:225
+logFile	../PreProcessing_v5/LabelProcessing.py	/^    logFile = open(logFileDir, 'w')$/;"	kind:variable	line:146
+logFileDir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    logFileDir = Output_Root_dir+'\/RegTrans' + '_RUN_' + '.log'$/;"	kind:variable	line:67
+logFileDir	../PreProcessing_v5/ImageProcessing.py	/^    logFileDir = RegOutput_dir+'\/RegTrans' + '_RUN_' + '.log'$/;"	kind:variable	line:224
+logFileDir	../PreProcessing_v5/LabelProcessing.py	/^    logFileDir = RegOutput_dir+'\/RegTrans' + '_RUN_' + '.log'$/;"	kind:variable	line:145
+main	../core/ealm.py	/^def main(argv=None):$/;"	kind:function	line:34
+main	../core/ialm_pca.py	/^def main(argv=None):$/;"	kind:function	line:41
+main	../core/op.py	/^def main(argv=None):$/;"	kind:function	line:174
+makeReferenceInput_list	../PreProcessing_v5/ImageProcessing.py	/^    makeReferenceInput_list = readTxtIntoList(cuttingresult_dir + '\/FileList.txt')$/;"	kind:variable	line:122
+makeReferenceInput_list	../PreProcessing_v5/ImageProcessing.py	/^    makeReferenceInput_list = readTxtIntoList(downsampleresult_dir + '\/FileList.txt')$/;"	kind:variable	line:120
+make_image_mask	../DataPreProcessing/Func_image_patch.py	/^def make_image_mask (im_dir_list, PatchIndice, reference_image, outputPrefix):$/;"	kind:function	line:110
+make_mask.py	../PatchedImage_v2/make_mask.py	1;"	kind:file	line:1
+modility	../PreProcessing_v5/LabelProcessing.py	/^    modility = 'wb'$/;"	kind:variable	line:87
+movingIm	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        movingIm = images[i]        $/;"	kind:variable	line:85
+movingIm	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        movingIm = labels[j] $/;"	kind:variable	line:117
+movingIm	../PreProcessing_v5/ImageProcessing.py	/^        movingIm = RegInput_list[i]$/;"	kind:variable	line:235
+movingIm	../PreProcessing_v5/LabelProcessing.py	/^        movingIm = RegInput_list[i]$/;"	kind:variable	line:161
+movingImage	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:118
+movingImage	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:94
+movingImage	../PreProcessing_v5/ImageProcessing.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:243
+movingImage	../PreProcessing_v5/LabelProcessing.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:162
+normalization_dir	../PreProcessing_v5/ImageProcessing.py	/^    normalization_dir = root_imge_dir + '\/normalizationImage\/NormalizedImage_'$/;"	kind:variable	line:156
+normalized	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def normalized(a, axis= 0, order=2):$/;"	kind:function	line:67
+normalizedImage_list	../CRF/conditionalRandomFieldUse.py	/^normalizedImage_list = ImageNormlization(im_fns, image_dir)$/;"	kind:variable	line:54
+normalizedImage_list	../CRF/crfFit.py	/^normalizedImage_list = ImageNormlization(im_fns, image_dir)$/;"	kind:variable	line:54
+op.py	../core/op.py	1;"	kind:file	line:1
+opursuit	../core/op.py	/^def opursuit(M,O=None,gamma=None):$/;"	kind:function	line:64
+organ	../CRF/conditionalRandomFieldUse.py	/^organ = '187_gallbladder' $/;"	kind:variable	line:45
+organ	../CRF/crfFit.py	/^organ = '187_gallbladder' $/;"	kind:variable	line:45
+organ	../CompareThePreandtruth_8_30.py	/^organ = '58_liver'$/;"	kind:variable	line:19
+organ	../CompareThePreandtruth_reg_8_30 .py	/^organ = '58_liver'$/;"	kind:variable	line:19
+organ	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^organ = '58_liver' $/;"	kind:variable	line:25
+organ	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^organ = '187_gallbladder' $/;"	kind:variable	line:26
+organ	../Eigenface_KNN_DS_organpatch_8_30.py	/^organ = '58_liver'$/;"	kind:variable	line:29
+organ	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^organ = '58_liver'$/;"	kind:variable	line:29
+organ	../LabelNumber.py	/^    organ = "170_pancreas"$/;"	kind:variable	line:67
+organ	../LabelNumber.py	/^    organ = "187_gallbladder"$/;"	kind:variable	line:76
+organ	../LabelNumber.py	/^    organ = "29193_first_lumbar_vertebra"$/;"	kind:variable	line:84
+organ	../LabelNumber.py	/^    organ="30325_left_adrenal_gland"$/;"	kind:variable	line:100
+organ	../LabelNumber.py	/^    organ="40358_muscle_body_of_left_rectus_abdominis"$/;"	kind:variable	line:92
+organ	../PatchedImage_v2/Image_patch_8_30.py	/^organ = '58_liver'$/;"	kind:variable	line:27
+organ	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^organ = '58_liver'$/;"	kind:variable	line:22
+organ	../PatchedImage_v2/make_mask.py	/^organ = '58_liver'$/;"	kind:variable	line:30
+organ	../PostProcessing.py	/^organ = "187_gallbladder"$/;"	kind:variable	line:112
+organ	../PreProcessing_v5/AfTransModification.py	/^organ = '58_liver'$/;"	kind:variable	line:19
+organ	../PreProcessing_v5/LabelProcessing.py	/^organ = '187_gallbladder'$/;"	kind:variable	line:40
+organList	../LabelNumber.py	/^organList = readTxtIntoList(resultDir + "\/organList.txt")$/;"	kind:variable	line:57
+origin	../PreProcessing_v5/ImageProcessing.py	/^origin = Origin_computing(im_fns)$/;"	kind:variable	line:68
+outputPrefix	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    outputPrefix = result_dir + '\/PCA_predict\/' $/;"	kind:variable	line:137
+outputPrefix	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    outputPrefix = result_dir + '\/PCA_predict\/' $/;"	kind:variable	line:139
+outputPrefix	../Eigenface_KNN_DS_organpatch_8_30.py	/^    outputPrefix = result_dir + '\/PCA_predict\/' $/;"	kind:variable	line:177
+outputPrefix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    outputPrefix = result_dir + '\/PCA_predict\/' $/;"	kind:variable	line:177
+outputPrefixList	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    outputPrefixList = []$/;"	kind:variable	line:144
+outputPrefixList	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    outputPrefixList = []$/;"	kind:variable	line:146
+outputPrefixList	../Eigenface_KNN_DS_organpatch_8_30.py	/^    outputPrefixList = []$/;"	kind:variable	line:184
+outputPrefixList	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    outputPrefixList = []$/;"	kind:variable	line:184
+outputtest	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    outputtest = result_dir + '\/PCA_test\/'$/;"	kind:variable	line:140
+outputtest	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    outputtest = result_dir + '\/PCA_test\/'$/;"	kind:variable	line:142
+outputtest	../Eigenface_KNN_DS_organpatch_8_30.py	/^    outputtest = result_dir + '\/PCA_test\/'$/;"	kind:variable	line:180
+outputtest	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    outputtest = result_dir + '\/PCA_test\/'$/;"	kind:variable	line:180
+outputtestList	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    outputtestList = []$/;"	kind:variable	line:145
+outputtestList	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    outputtestList = []$/;"	kind:variable	line:147
+outputtestList	../Eigenface_KNN_DS_organpatch_8_30.py	/^    outputtestList = []$/;"	kind:variable	line:185
+outputtestList	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    outputtestList = []$/;"	kind:variable	line:185
+p_x	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^p_x = PatchSize[1]$/;"	kind:variable	line:93
+p_x	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^p_x = PatchSize[1]$/;"	kind:variable	line:94
+p_y	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^p_y = PatchSize[2]$/;"	kind:variable	line:94
+p_y	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^p_y = PatchSize[2]$/;"	kind:variable	line:95
+p_z	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^p_z = PatchSize[0]$/;"	kind:variable	line:92
+p_z	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^p_z = PatchSize[0]$/;"	kind:variable	line:93
+pad_para	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^pad_para = {}$/;"	kind:variable	line:87
+pad_para	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^pad_para = {}$/;"	kind:variable	line:88
+pad_x	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_x = (p_x - (x_dim % p_x))\/2$/;"	kind:variable	line:102
+pad_x	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_x = 0$/;"	kind:variable	line:104
+pad_x	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_x = (p_x - (x_dim % p_x))\/2$/;"	kind:variable	line:103
+pad_x	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_x = 0$/;"	kind:variable	line:105
+pad_y	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_y = (p_y - (y_dim % p_y))\/2$/;"	kind:variable	line:107
+pad_y	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_y = 0$/;"	kind:variable	line:109
+pad_y	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_y = (p_y - (y_dim % p_y))\/2$/;"	kind:variable	line:108
+pad_y	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_y = 0$/;"	kind:variable	line:110
+pad_z	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_z = (p_z - (z_dim % p_z))\/2$/;"	kind:variable	line:97
+pad_z	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    pad_z = 0$/;"	kind:variable	line:99
+pad_z	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_z = (p_z - (z_dim % p_z))\/2$/;"	kind:variable	line:98
+pad_z	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    pad_z = 0$/;"	kind:variable	line:100
+paraAffine	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        paraAffine = sitk.ReadParameterFile(transformParadir_Affine)$/;"	kind:variable	line:125
+paraAffine	../PreProcessing_v5/ImageProcessing.py	/^        paraAffine = sitk.GetDefaultParameterMap("affine")$/;"	kind:variable	line:249
+paraAffine	../PreProcessing_v5/LabelProcessing.py	/^        paraAffine = sitk.ReadParameterFile(transformParadir_Affine)$/;"	kind:variable	line:169
+paraTrans	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        paraTrans = sitk.ReadParameterFile(transformParadir_Trans)$/;"	kind:variable	line:121
+paraTrans	../PreProcessing_v5/ImageProcessing.py	/^        paraTrans = sitk.GetDefaultParameterMap("translation")$/;"	kind:variable	line:248
+paraTrans	../PreProcessing_v5/LabelProcessing.py	/^        paraTrans = sitk.ReadParameterFile(transformParadir_Trans)$/;"	kind:variable	line:165
+patch_Eigenface_data	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def patch_Eigenface_data(Eigenface_basis_matrix, EigenBasisNum, train_image_matrix, test_image_matrix, RPCA_Para):$/;"	kind:function	line:52
+patch_KNN	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def patch_KNN (x_train, y_train, x_test, K = 1):$/;"	kind:function	line:66
+patch_indice	../DataPreProcessing/Func_image_patch.py	/^def patch_indice (im_dir_list):$/;"	kind:function	line:38
+pos_w	../CRF/conditionalRandomFieldUse.py	/^                 pos_w=43.0,$/;"	kind:variable	line:102
+pos_w	../CRF/crfFit.py	/^                 pos_w=expon(scale=6, loc=1),$/;"	kind:variable	line:147
+pos_x_std	../CRF/conditionalRandomFieldUse.py	/^                 pos_x_std=0.508,$/;"	kind:variable	line:99
+pos_x_std	../CRF/crfFit.py	/^                 pos_x_std=[0.508306177387],$/;"	kind:variable	line:134
+pos_y_std	../CRF/conditionalRandomFieldUse.py	/^                 pos_y_std=0.508,$/;"	kind:variable	line:100
+pos_z_std	../CRF/conditionalRandomFieldUse.py	/^                 pos_z_std=0.508,$/;"	kind:variable	line:101
+predict	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def predict(self, X, k=1, num_loops=0):$/;"	kind:member	line:30
+predict	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	/^  def predict(self, x_test, k=1):$/;"	kind:member	line:36
+predictDirlist	../LabelNumber.py	/^    predictDirlist = []$/;"	kind:variable	line:68
+predictList	../PostProcessing.py	/^predictList = readTxtIntoList(PredictDir + "\/FileList.txt")$/;"	kind:variable	line:142
+predictOutput	../PostProcessing.py	/^predictOutput = resultDir + "\/Predict"$/;"	kind:variable	line:146
+predictRecover	../PostProcessing.py	/^def predictRecover(predictlist, central_point, ImageInfo, outputdir):$/;"	kind:function	line:41
+predict_GMV	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def predict_GMV(self, X, k=1, num_loops=0):$/;"	kind:member	line:209
+predict_List	../PostProcessing.py	/^predict_List = predictRecover(rawPredictlist, central_point, ImageInfo, PredictDir)$/;"	kind:variable	line:126
+predict_labels	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def predict_labels(self, dists, k=1):$/;"	kind:member	line:141
+predict_labels	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	/^  def predict_labels(self, indices, k=1):$/;"	kind:member	line:56
+predict_labels_GMV	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def predict_labels_GMV(self, dists, k=1):$/;"	kind:member	line:175
+predict_list	../CompareThePreandtruth_8_30.py	/^predict_list = Dpp.ImageModificationAfterTransform(im_fns, result_dir_pre, constraintPredict)$/;"	kind:variable	line:40
+predict_list	../CompareThePreandtruth_reg_8_30 .py	/^predict_list = Dpp.ImageModificationAfterTransform(im_fns, result_dir_pre, constraintPredict)$/;"	kind:variable	line:40
+prefix	../LabelNumber.py	/^prefix = 'Predict_Imzoomed_predictRecover_'$/;"	kind:variable	line:59
+pro	../CRF/conditionalRandomFieldUse.py	/^pro = CRFProcessor.CRF3DProcessor(max_iterations=30,$/;"	kind:variable	line:98
+pro	../CRF/crfFit.py	/^pro = CRFProcessorEsther.CRF3DProcessor(verbose=True)$/;"	kind:variable	line:114
+probs	../CRF/conditionalRandomFieldUse.py	/^    probs = np.concatenate([1 - ImPred_array[..., None], ImPred_array[..., None]], axis=-1)$/;"	kind:variable	line:123
+rawPredictDir	../PostProcessing.py	/^rawPredictDir = root + "\/Result_Eigenfaces_KNN\/PatchedImage\/"+organ+"\/PCA_predict"$/;"	kind:variable	line:119
+rawPredictlist	../PostProcessing.py	/^rawPredictlist = readTxtIntoList(rawPredictDir + "\/FileListZoom.txt")$/;"	kind:variable	line:120
+rawimage	../CRF/conditionalRandomFieldUse.py	/^    rawimage = sitk.ReadImage(normalizedImage_list[i])$/;"	kind:variable	line:118
+rawimage	../CRF/crfFit.py	/^    rawimage = sitk.ReadImage(normalizedImage_list[i])$/;"	kind:variable	line:102
+rawimage_array	../CRF/conditionalRandomFieldUse.py	/^    rawimage_array = sitk.GetArrayFromImage(rawimage)$/;"	kind:variable	line:119
+rawimage_array	../CRF/crfFit.py	/^    rawimage_array = sitk.GetArrayFromImage(rawimage)$/;"	kind:variable	line:103
+readTxtIntoList	../DataPreProcessing/Func_data_preprocessing.py	/^def readTxtIntoList(filename):$/;"	kind:function	line:22
+readTxtIntoList	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def readTxtIntoList(filename):$/;"	kind:function	line:15
+readTxtIntoList	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def readTxtIntoList(filename):$/;"	kind:function	line:21
+readTxtIntoList	../LabelNumber.py	/^def readTxtIntoList(filename):$/;"	kind:function	line:12
+recover	../core/ealm.py	/^def recover(D, gamma=None):$/;"	kind:function	line:60
+recover	../core/ialm_pca.py	/^def recover (D, gamma=None, tol=1e-07):$/;"	kind:function	line:86
+referenceImageMask	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        referenceImageMask = dir_i$/;"	kind:variable	line:39
+reference_dir	../PatchedImage_v2/Image_patch_8_30.py	/^reference_dir = root_dir + '\/Full_Image' + '\/GC_Volumes_adjustment\/referenceImage'$/;"	kind:variable	line:20
+reference_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^reference_dir = root_dir + '\/Full_Image\/GC_Volumes_adjustment' + '\/referenceImage'$/;"	kind:variable	line:33
+reference_dir	../PatchedImage_v2/make_mask.py	/^reference_dir = root_dir + '\/Full_Image' + '\/GC_Volumes_adjustment\/referenceImage'$/;"	kind:variable	line:22
+reference_dir	../PreProcessing_v5/ImageProcessing.py	/^    reference_dir = root_imge_dir +'\/referenceImage'$/;"	kind:variable	line:160
+reference_dir	../PreProcessing_v5/ImageProcessing.py	/^reference_dir = root_imge_dir +'\/referenceImage'$/;"	kind:variable	line:124
+reference_dir	../PreProcessing_v5/LabelProcessing.py	/^reference_dir = root_imge_dir + '\/referenceImage'$/;"	kind:variable	line:34
+reference_im_fn	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^reference_im_fn = X_data_list[0]$/;"	kind:variable	line:50
+reference_im_fn	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^reference_im_fn = X_data_list[0]$/;"	kind:variable	line:51
+reference_im_fn	../Eigenface_KNN_DS_organpatch_8_30.py	/^reference_im_fn = X_data_list[0]$/;"	kind:variable	line:52
+reference_im_fn	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^reference_im_fn = X_data_list[0]$/;"	kind:variable	line:52
+reference_im_fn	../PatchedImage_v2/Image_patch_8_30.py	/^reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:21
+reference_im_fn	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    reference_im_fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:44
+reference_im_fn	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:46
+reference_im_fn	../PatchedImage_v2/make_mask.py	/^reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:23
+reference_im_fn	../PreProcessing_v5/ImageProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:207
+reference_im_fn	../PreProcessing_v5/ImageProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:210
+reference_im_fn	../PreProcessing_v5/LabelProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:36
+reference_im_fn	../PreProcessing_v5/LabelProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:38
+reference_im_pred	../Eigenface_KNN_DS_organpatch_8_30.py	/^    reference_im_pred = reference_im_fn$/;"	kind:variable	line:193
+reference_im_pred	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    reference_im_pred = reference_im_fn$/;"	kind:variable	line:193
+reference_image	../PatchedImage_v2/Image_patch_8_30.py	/^reference_image = reference_im_fn$/;"	kind:variable	line:85
+reference_image	../PatchedImage_v2/Image_patch_8_30.py	/^reference_image = reference_im_fn$/;"	kind:variable	line:90
+reference_image	../PatchedImage_v2/make_mask.py	/^reference_image = reference_im_fn$/;"	kind:variable	line:68
+reference_image	../PatchedImage_v2/make_mask.py	/^reference_image = reference_im_fn$/;"	kind:variable	line:74
+regIfLinear	../PatchedImage_v2/Image_patch_8_30.py	/^    regIfLinear = "Linear"$/;"	kind:variable	line:50
+regIfLinear	../PatchedImage_v2/Image_patch_8_30.py	/^regIfLinear = "Linear"$/;"	kind:variable	line:25
+regIfLinear	../PatchedImage_v2/make_mask.py	/^regIfLinear = "Linear"$/;"	kind:variable	line:28
+regIfLinear	../PreProcessing_v5/AfTransModification.py	/^regIfLinear = "Linear"$/;"	kind:variable	line:17
+removePadding	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def removePadding(paddedImageMatrix, paddim):$/;"	kind:function	line:162
+resultDir	../LabelNumber.py	/^    resultDir = root_dir+'\/predict'+ organList[i]$/;"	kind:variable	line:108
+resultDir	../LabelNumber.py	/^resultDir = root + "\/UpsampleResult"$/;"	kind:variable	line:56
+resultDir	../PostProcessing.py	/^resultDir = root + "\/UpsampleResult\/"+organ+"_UpsampleResult"$/;"	kind:variable	line:136
+result_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^result_dir = result_root_dir + '\/PatchedImage\/' + organ + 'LocalPatch'$/;"	kind:variable	line:31
+result_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^result_dir = result_root_dir + '\/PatchedImage\/' + organ + 'LocalPatch'$/;"	kind:variable	line:32
+result_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^result_dir = result_root_dir + '\/PatchedImage\/' + organ $/;"	kind:variable	line:35
+result_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^result_dir = result_root_dir + '\/RegPatchedImage\/' + organ $/;"	kind:variable	line:35
+result_dir_img	../PatchedImage_v2/Image_patch_8_30.py	/^    result_dir_img = image_result_dir + '\/'+ organ +'_Imagepatch' $/;"	kind:variable	line:59
+result_dir_img	../PatchedImage_v2/Image_patch_8_30.py	/^    result_dir_img = image_result_dir + '\/'+ organ +'_Imagepatch_withOrganReg' $/;"	kind:variable	line:47
+result_dir_img	../PatchedImage_v2/make_mask.py	/^result_dir_img = image_result_dir + '\/'+ organ +'_ImageMask' $/;"	kind:variable	line:53
+result_dir_lab	../PatchedImage_v2/Image_patch_8_30.py	/^    result_dir_lab = label_result_dir+ '\/' + organ + '_Labelpatch' $/;"	kind:variable	line:60
+result_dir_lab	../PatchedImage_v2/Image_patch_8_30.py	/^    result_dir_lab = label_result_dir+ '\/' + organ + '_Labelpatch_withOrganReg'    $/;"	kind:variable	line:48
+result_dir_lab	../PatchedImage_v2/make_mask.py	/^result_dir_lab = label_result_dir+ '\/' + organ + '_LabelMask'      $/;"	kind:variable	line:54
+result_dir_lab	../PreProcessing_v5/AfTransModification.py	/^                 '\/Modification_Regtrans_' + regIfLinear + '_Elastix' $/;"	kind:variable	line:26
+result_dir_pre	../CRF/conditionalRandomFieldUse.py	/^    result_dir_pre   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_predict'$/;"	kind:variable	line:63
+result_dir_pre	../CRF/conditionalRandomFieldUse.py	/^    result_dir_pre   = root_dir + '\/'+organ + '\/PCA_predict'$/;"	kind:variable	line:61
+result_dir_pre	../CRF/crfFit.py	/^    result_dir_pre   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_predict'$/;"	kind:variable	line:63
+result_dir_pre	../CRF/crfFit.py	/^    result_dir_pre   = root_dir + '\/'+organ + '\/PCA_predict'$/;"	kind:variable	line:61
+result_dir_pre	../CompareThePreandtruth_8_30.py	/^    result_dir_pre   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_predict'$/;"	kind:variable	line:30
+result_dir_pre	../CompareThePreandtruth_8_30.py	/^    result_dir_pre   = root_dir + '\/'+organ + '\/PCA_predict'$/;"	kind:variable	line:28
+result_dir_pre	../CompareThePreandtruth_reg_8_30 .py	/^    result_dir_pre   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_predict'$/;"	kind:variable	line:30
+result_dir_pre	../CompareThePreandtruth_reg_8_30 .py	/^    result_dir_pre   = root_dir + '\/'+organ + '\/PCA_predict'$/;"	kind:variable	line:28
+result_dir_true	../CRF/conditionalRandomFieldUse.py	/^    result_dir_true   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_test'$/;"	kind:variable	line:83
+result_dir_true	../CRF/conditionalRandomFieldUse.py	/^    result_dir_true   = root_dir + '\/'+organ + '\/PCA_test'$/;"	kind:variable	line:81
+result_dir_true	../CRF/crfFit.py	/^    result_dir_true   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_test'$/;"	kind:variable	line:82
+result_dir_true	../CRF/crfFit.py	/^    result_dir_true   = root_dir + '\/'+organ + '\/PCA_test'$/;"	kind:variable	line:80
+result_dir_true	../CompareThePreandtruth_8_30.py	/^    result_dir_true   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_test'$/;"	kind:variable	line:48
+result_dir_true	../CompareThePreandtruth_8_30.py	/^    result_dir_true   = root_dir + '\/'+organ + '\/PCA_test'$/;"	kind:variable	line:46
+result_dir_true	../CompareThePreandtruth_reg_8_30 .py	/^    result_dir_true   = root_dir + '\/'+organ + 'LocalPatch'+ '\/PCA_test'$/;"	kind:variable	line:48
+result_dir_true	../CompareThePreandtruth_reg_8_30 .py	/^    result_dir_true   = root_dir + '\/'+organ + '\/PCA_test'$/;"	kind:variable	line:46
+result_lab_list	../PreProcessing_v5/AfTransModification.py	/^result_lab_list = Dpp.ImageModificationAfterTransform(im_fns_label, result_dir_lab)$/;"	kind:variable	line:34
+result_list_img	../PatchedImage_v2/Image_patch_8_30.py	/^result_list_img = Ip.image_patch_padding (im_fns_image, PatchIndice, reference_image, result_dir_img)$/;"	kind:variable	line:91
+result_list_img	../PatchedImage_v2/make_mask.py	/^result_list_img = Ip.make_image_mask (im_fns_image, PatchIndice, reference_image, result_dir_img)$/;"	kind:variable	line:75
+result_list_lab	../PatchedImage_v2/Image_patch_8_30.py	/^result_list_lab = Ip.image_patch_padding (im_fns_label, PatchIndice, reference_image, result_dir_lab)$/;"	kind:variable	line:86
+result_list_lab	../PatchedImage_v2/make_mask.py	/^result_list_lab = Ip.make_image_mask (im_fns_label, PatchIndice, reference_image, result_dir_lab)$/;"	kind:variable	line:69
+result_root_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^result_root_dir = root_dir + '\/Result_Eigenfaces_KNN'$/;"	kind:variable	line:30
+result_root_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^result_root_dir = root_dir + '\/Result_Eigenfaces_KNN'$/;"	kind:variable	line:31
+result_root_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^result_root_dir = root_dir + '\/Result_Eigenfaces_KNN'$/;"	kind:variable	line:34
+result_root_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^result_root_dir = root_dir + '\/Result_Eigenfaces_KNN'$/;"	kind:variable	line:34
+root	../CRF/conditionalRandomFieldUse.py	/^root = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:51
+root	../CRF/crfFit.py	/^root = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:51
+root	../LabelNumber.py	/^root = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:55
+root	../PostProcessing.py	/^root = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:118
+root_dir	../CRF/conditionalRandomFieldUse.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:59
+root_dir	../CRF/conditionalRandomFieldUse.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:79
+root_dir	../CRF/crfFit.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:59
+root_dir	../CRF/crfFit.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:78
+root_dir	../CompareThePreandtruth_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:26
+root_dir	../CompareThePreandtruth_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/PatchedImage'$/;"	kind:variable	line:44
+root_dir	../CompareThePreandtruth_reg_8_30 .py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/RegPatchedImage'$/;"	kind:variable	line:26
+root_dir	../CompareThePreandtruth_reg_8_30 .py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12\/Result_Eigenfaces_KNN\/RegPatchedImage'$/;"	kind:variable	line:44
+root_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12' $/;"	kind:variable	line:26
+root_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12' $/;"	kind:variable	line:27
+root_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12' $/;"	kind:variable	line:30
+root_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12' $/;"	kind:variable	line:30
+root_dir	../LabelNumber.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017\/MultiOrgan\/'$/;"	kind:variable	line:61
+root_dir	../PatchedImage_v2/Image_patch_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:19
+root_dir	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:23
+root_dir	../PatchedImage_v2/make_mask.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:21
+root_dir	../PreProcessing_v5/AfTransModification.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:21
+root_dir	../PreProcessing_v5/ImageProcessing.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:38
+root_dir	../PreProcessing_v5/LabelProcessing.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:31
+root_image_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^root_image_dir = root_dir + '\/Patched_Image' + '\/GC_Volumes_patch' + '_Elastix'$/;"	kind:variable	line:27
+root_image_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^root_image_dir = root_dir + '\/Patched_Image' + '\/GC_Volumes_patch' + '_Elastix'$/;"	kind:variable	line:28
+root_image_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^root_image_dir = root_dir + '\/Patched_Image' + '\/GC_Volumes_patch' + '_Elastix'$/;"	kind:variable	line:31
+root_image_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^root_image_dir = root_dir + '\/Patched_Image' + '\/GC_Volumes_patch' + '_Elastix'$/;"	kind:variable	line:31
+root_imge_dir	../PreProcessing_v5/ImageProcessing.py	/^root_imge_dir = root_dir +'\/Full_Image' + '\/GC_Volumes_adjustment' # image root dir$/;"	kind:variable	line:39
+root_imge_dir	../PreProcessing_v5/LabelProcessing.py	/^root_imge_dir = root_dir + '\/Full_Image' + '\/GC_Volumes_adjustment' # image root dir $/;"	kind:variable	line:32
+root_label_dir	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^root_label_dir = root_dir + '\/Patched_Image' + '\/GC_label_patch' + '_Elastix'$/;"	kind:variable	line:28
+root_label_dir	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^root_label_dir = root_dir + '\/Patched_Image' + '\/GC_label_patch' + '_Elastix'$/;"	kind:variable	line:29
+root_label_dir	../Eigenface_KNN_DS_organpatch_8_30.py	/^root_label_dir = root_dir + '\/Patched_Image' + '\/GC_label_patch' + '_Elastix'$/;"	kind:variable	line:32
+root_label_dir	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^root_label_dir = root_dir + '\/Patched_Image' + '\/GC_label_patch' + '_Elastix'$/;"	kind:variable	line:32
+root_label_dir	../PreProcessing_v5/ImageProcessing.py	/^root_label_dir = root_dir +'\/Full_Image' + '\/GC_label_adjustment' # image root dir$/;"	kind:variable	line:40
+root_label_dir	../PreProcessing_v5/LabelProcessing.py	/^root_label_dir = root_dir + '\/Full_Image' + '\/GC_label_adjustment' # label root dir$/;"	kind:variable	line:33
+rpca	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def rpca(Y,lamda, tol=1e-07) :$/;"	kind:function	line:81
+runImageRegistration	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^runImageRegistration = True$/;"	kind:variable	line:17
+s	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    s = time.time()   $/;"	kind:variable	line:65
+s	../PreProcessing_v5/ImageProcessing.py	/^    s = time.time()$/;"	kind:variable	line:222
+s	../PreProcessing_v5/LabelProcessing.py	/^    s = time.time()$/;"	kind:variable	line:143
+samplefactor	../PostProcessing.py	/^samplefactor=[2,2,2]$/;"	kind:variable	line:148
+saveImagesFromDM	../DataPreProcessing/Func_data_preprocessing.py	/^def saveImagesFromDM(dataMatrix, inputList, outputdir, referenceImName):$/;"	kind:function	line:72
+saveImagesFromDM	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def saveImagesFromDM(dataMatrix, outputdir_list, referenceImName):$/;"	kind:function	line:32
+saveImagesFromDM	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def saveImagesFromDM(dataMatrix,outputPrefix,referenceImName, extension):$/;"	kind:function	line:118
+saveImagesFromDM	../core/ialm_pca.py	/^def saveImagesFromDM(dataMatrix,outputPrefix,referenceImName, extension):$/;"	kind:function	line:69
+saveImagesFromDataMatrix	../EigenfaceKNN/Func_Eigenface_KNN_patch_6_6.py	/^def saveImagesFromDataMatrix(dataMatrix,outputlist,ImPara):$/;"	kind:function	line:87
+searchName	../PreProcessing_v5/LabelProcessing.py	/^searchName = "10000129_1_CTce_ThAb"$/;"	kind:variable	line:58
+selName	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^selName = "10000128_1_CTce_ThAb"$/;"	kind:variable	line:35
+selectedNO	../Eigenface_KNN_DS_organpatch_8_30.py	/^    selectedNO = range(testN) + range(testN+1,data_num)$/;"	kind:variable	line:80
+selectedNO	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    selectedNO = range(testN) + range(testN+1,data_num)$/;"	kind:variable	line:80
+selection	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^    selection = range(testN) + range(testN+1, data_num)$/;"	kind:variable	line:121
+selection	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^    selection = range(testN) + range(testN+1, data_num)$/;"	kind:variable	line:122
+selx	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    selx = sitk.ElastixImageFilter()$/;"	kind:variable	line:73
+selx	../PreProcessing_v5/ImageProcessing.py	/^    selx = sitk.ElastixImageFilter()$/;"	kind:variable	line:230
+showImage	../EigenfaceKNN/Func_Eigenface_KNN.py	/^def showImage(image_fn, title):$/;"	kind:function	line:49
+showSlice	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def showSlice(dataMatrix,title,color,subplotRow, referenceImName, slice_nr = -1):$/;"	kind:function	line:99
+sitk_ImageRead	../DataPreProcessing/Func_image_patch.py	/^def sitk_ImageRead(image_dir):$/;"	kind:function	line:18
+sizeadjust_image_dir	../PreProcessing_v5/ImageProcessing.py	/^sizeadjust_image_dir = root_imge_dir + '\/sizeadjustment'$/;"	kind:variable	line:58
+sizeadjust_label_dir	../PreProcessing_v5/LabelProcessing.py	/^sizeadjust_label_dir = label_dir + '\/sizeadjustment'$/;"	kind:variable	line:65
+sizeadjust_list	../PreProcessing_v5/ImageProcessing.py	/^    sizeadjust_list = imageSizeAdjust(im_fns[0:20], sizeadjust_image_dir, cutrange, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:83
+sizeadjust_list	../PreProcessing_v5/ImageProcessing.py	/^sizeadjust_list=[]$/;"	kind:variable	line:57
+sizeadjust_list	../PreProcessing_v5/LabelProcessing.py	/^                                          cutrange, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:94
+stran	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    stran = sitk.TransformixImageFilter()$/;"	kind:variable	line:112
+stran	../PreProcessing_v5/LabelProcessing.py	/^    stran = sitk.TransformixImageFilter()$/;"	kind:variable	line:148
+testIndicator	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^        testIndicator = string.join(BaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:149
+testIndicator	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^        testIndicator = string.join(BaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:151
+testIndicator	../Eigenface_KNN_DS_organpatch_8_30.py	/^        testIndicator = string.join(BaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:189
+testIndicator	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^        testIndicator = string.join(BaseName.split("_")[-6:-2], "_")$/;"	kind:variable	line:189
+test_image_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^    test_image_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_test_X)$/;"	kind:variable	line:121
+test_image_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    test_image_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_test_X)$/;"	kind:variable	line:121
+test_num	../Eigenface_KNN_DS_organpatch_8_30.py	/^test_num = 1$/;"	kind:variable	line:62
+test_num	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^test_num = 1$/;"	kind:variable	line:62
+test_selected	../Eigenface_KNN_DS_organpatch_8_30.py	/^    test_selected = selectedNO[train_num : train_num + test_num]    $/;"	kind:variable	line:83
+test_selected	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    test_selected = selectedNO[train_num : train_num + test_num]    $/;"	kind:variable	line:83
+test_selected_list	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^test_selected_list = []$/;"	kind:variable	line:118
+test_selected_list	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^test_selected_list = []$/;"	kind:variable	line:119
+test_selected_list	../Eigenface_KNN_DS_organpatch_8_30.py	/^test_selected_list = []$/;"	kind:variable	line:77
+test_selected_list	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^test_selected_list = []$/;"	kind:variable	line:77
+tol	../Eigenface_KNN_DS_organpatch_8_30.py	/^tol = 1e-07$/;"	kind:variable	line:57
+tol	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^tol = 1e-07$/;"	kind:variable	line:57
+train	../EigenfaceKNN/Func_k_nearest_neighbor_eig.py	/^  def train(self, X, y):$/;"	kind:member	line:16
+train	../EigenfaceKNN/Func_k_nearest_neighbor_sklearning.py	/^  def train(self, X, y):$/;"	kind:member	line:22
+train_image_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^    train_image_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_train_X)$/;"	kind:variable	line:103
+train_image_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    train_image_matrix = EigKNN.Imagelist_to_Matrix(im_file_list_train_X)$/;"	kind:variable	line:103
+train_num	../Eigenface_KNN_DS_organpatch_8_30.py	/^train_num = 35$/;"	kind:variable	line:61
+train_num	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^train_num = 35$/;"	kind:variable	line:61
+train_selected	../Eigenface_KNN_DS_organpatch_8_30.py	/^    train_selected = selectedNO[0 : train_num]$/;"	kind:variable	line:82
+train_selected	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    train_selected = selectedNO[0 : train_num]$/;"	kind:variable	line:82
+transformPara	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        transformPara = ImageRegOutput_dir+'\/ImRegPre_' + imageBaseName$/;"	kind:variable	line:89
+transformPara	../PreProcessing_v5/ImageProcessing.py	/^        transformPara = RegOutput_dir + '\/ImRegResult_' + baseName$/;"	kind:variable	line:238
+transformParaMaplist	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^    transformParaMaplist = []$/;"	kind:variable	line:80
+transformParaMaplist	../PreProcessing_v5/LabelProcessing.py	/^    transformParaMaplist = []    $/;"	kind:variable	line:150
+transformParadir_Affine	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        transformParadir_Affine = transformParaMaplist[j] + '\/TransformParameters.1.txt' $/;"	kind:variable	line:124
+transformParadir_Affine	../PreProcessing_v5/LabelProcessing.py	/^        transformParadir_Affine = transformParaMaplist[i] + '\/TransformParameters.1.txt' $/;"	kind:variable	line:168
+transformParadir_Trans	../PatchedImage_v2/OrganLevelRegistration_8_30.py	/^        transformParadir_Trans = transformParaMaplist[j] + '\/TransformParameters.0.txt'$/;"	kind:variable	line:120
+transformParadir_Trans	../PreProcessing_v5/LabelProcessing.py	/^        transformParadir_Trans = transformParaMaplist[i] + '\/TransformParameters.0.txt'       $/;"	kind:variable	line:164
+updateInputImageWithDVF	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def updateInputImageWithDVF(inputImage,refImage,DVFImage, newInputImage,EXECUTE = False):$/;"	kind:function	line:474
+updateInputImageWithTFM	../EigenfaceKNN/Func_low_rank_atlas_iter_PCA.py	/^def updateInputImageWithTFM(inputImage,refImage, transform, newInputImage,EXECUTE = False):$/;"	kind:function	line:490
+verbose	../CRF/conditionalRandomFieldUse.py	/^                 verbose=False)$/;"	kind:variable	line:110
+wb_Num	../PreProcessing_v5/LabelProcessing.py	/^            wb_Num=wb_Num+1$/;"	kind:variable	line:90
+wb_Num	../PreProcessing_v5/LabelProcessing.py	/^    wb_Num = 0$/;"	kind:variable	line:86
+x_test	../Eigenface_KNN_DS_organpatch_8_30.py	/^    x_test = EigKNN.Eigenface_feature(test_image_matrix, image_mean, eigfaces)$/;"	kind:variable	line:122
+x_test	../Eigenface_KNN_DS_organpatch_8_30.py	/^    x_test = x_test.T$/;"	kind:variable	line:131
+x_test	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    x_test = EigKNN.Eigenface_feature(test_image_matrix, image_mean, eigfaces)$/;"	kind:variable	line:122
+x_test	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    x_test = x_test.T$/;"	kind:variable	line:131
+x_train	../Eigenface_KNN_DS_organpatch_8_30.py	/^    x_train = EigKNN.Eigenface_feature(train_image_matrix, image_mean, eigfaces)$/;"	kind:variable	line:104
+x_train	../Eigenface_KNN_DS_organpatch_8_30.py	/^    x_train = x_train.T # N*D$/;"	kind:variable	line:113
+x_train	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    x_train = EigKNN.Eigenface_feature(train_image_matrix, image_mean, eigfaces)$/;"	kind:variable	line:104
+x_train	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    x_train = x_train.T # N*D$/;"	kind:variable	line:113
+y_pred	../CRF/conditionalRandomFieldUse.py	/^    y_pred = np.reshape(crfImPred,-1)$/;"	kind:variable	line:126
+y_pred	../CompareThePreandtruth_8_30.py	/^    y_pred = np.reshape(ImPred_array,-1)$/;"	kind:variable	line:71
+y_pred	../CompareThePreandtruth_reg_8_30 .py	/^    y_pred = np.reshape(ImPred_array,-1)$/;"	kind:variable	line:71
+y_test	../Eigenface_KNN_DS_organpatch_8_30.py	/^    y_test = EigKNN.Imagelist_to_Matrix(im_file_list_test_Y)$/;"	kind:variable	line:129
+y_test	../Eigenface_KNN_DS_organpatch_8_30.py	/^    y_test = y_test.T$/;"	kind:variable	line:132
+y_test	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    y_test = EigKNN.Imagelist_to_Matrix(im_file_list_test_Y)$/;"	kind:variable	line:129
+y_test	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    y_test = y_test.T$/;"	kind:variable	line:132
+y_test_matrix	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^y_test_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:116
+y_test_matrix	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^y_test_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:117
+y_test_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^y_test_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:75
+y_test_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^y_test_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:75
+y_test_pred_matrix	../Eigenface_KNN_DS_LocalPatch_8_30.py	/^y_test_pred_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:115
+y_test_pred_matrix	../Eigenface_KNN_DS_LocalPatch_reg_8_30 .py	/^y_test_pred_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:116
+y_test_pred_matrix	../Eigenface_KNN_DS_organpatch_8_30.py	/^y_test_pred_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:74
+y_test_pred_matrix	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^y_test_pred_matrix = np.zeros((z_dim*x_dim*y_dim, data_num))$/;"	kind:variable	line:74
+y_train	../Eigenface_KNN_DS_organpatch_8_30.py	/^    y_train = EigKNN.Imagelist_to_Matrix(im_file_list_train_Y)$/;"	kind:variable	line:111
+y_train	../Eigenface_KNN_DS_organpatch_8_30.py	/^    y_train = y_train.T$/;"	kind:variable	line:114
+y_train	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    y_train = EigKNN.Imagelist_to_Matrix(im_file_list_train_Y)$/;"	kind:variable	line:111
+y_train	../Eigenface_KNN_DS_organpatch_reg_8_30 .py	/^    y_train = y_train.T$/;"	kind:variable	line:114
+y_true	../CRF/conditionalRandomFieldUse.py	/^    y_true = np.reshape(TmGT_array,-1)$/;"	kind:variable	line:116
+y_true	../CompareThePreandtruth_8_30.py	/^    y_true = np.reshape(TmGT_array,-1)$/;"	kind:variable	line:66
+y_true	../CompareThePreandtruth_reg_8_30 .py	/^    y_true = np.reshape(TmGT_array,-1)$/;"	kind:variable	line:66
+zoomPredictList	../PostProcessing.py	/^zoomPredictList = imagezoom(predictList, predictOutput, samplefactor, InterP)$/;"	kind:variable	line:152

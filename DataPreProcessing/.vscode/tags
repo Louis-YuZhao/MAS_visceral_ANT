@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANTSWarpImage	../Func_data_preprocessing.py	/^def ANTSWarpImage(inputIm, outputIm, referenceIm, transformPrefix, mode = 'linear', EXECUTE = False):$/;"	kind:function	line:366
+ANTsRegParaInside	../Func_data_preprocessing.py	/^def ANTsRegParaInside(fixedIm, movingIm, outputTransformPrefix,initialTransform = False, EXECUTE = False):$/;"	kind:function	line:287
+ANTsRegistration	../Func_data_preprocessing.py	/^def ANTsRegistration(fixedIm, movingIm, outputTransformPrefix,params,initialTransform = False, EXECUTE = False):$/;"	kind:function	line:256
+ANTsTransImage	../Func_data_preprocessing.py	/^def ANTsTransImage(inputIm, outputIm, referenceIm, transformPrefix, mode = 'linear', EXECUTE = False):$/;"	kind:function	line:333
+Func_atlas_selection.py	../Func_atlas_selection.py	1;"	kind:file	line:1
+Func_data_preprocessing.py	../Func_data_preprocessing.py	1;"	kind:file	line:1
+Func_image_patch.py	../Func_image_patch.py	1;"	kind:file	line:1
+GetListFromFile	../Func_data_preprocessing.py	/^def GetListFromFile(path, endwith):$/;"	kind:function	line:28
+ImageCutting	../Func_data_preprocessing.py	/^def ImageCutting(InputImageList, cuttingresult_dir):$/;"	kind:function	line:145
+ImageCuttingwithDim	../Func_data_preprocessing.py	/^def ImageCuttingwithDim(InputImageList, cuttingresult_dir, dim):$/;"	kind:function	line:178
+ImageDirListtoMatrix	../Func_data_preprocessing.py	/^def ImageDirListtoMatrix(InputImageList):$/;"	kind:function	line:52
+ImageModificationAfterTransform	../Func_data_preprocessing.py	/^def ImageModificationAfterTransform(InputImageList, result_dir, threshold = 10**(-2)):$/;"	kind:function	line:393
+ImageNormlization	../Func_data_preprocessing.py	/^def ImageNormlization(InputImageList, result_dir):$/;"	kind:function	line:415
+Origin_computing	../Func_data_preprocessing.py	/^def Origin_computing(InputImageList):$/;"	kind:function	line:137
+WriteDocumstoFile	../Func_data_preprocessing.py	/^def WriteDocumstoFile(inputpath, endwith, outputpath):$/;"	kind:function	line:43
+WriteListtoFile	../Func_data_preprocessing.py	/^def WriteListtoFile(filelist, filename):$/;"	kind:function	line:37
+__init__.py	../__init__.py	1;"	kind:file	line:1
+__status__	../Func_atlas_selection.py	/^__status__  = "Development"$/;"	kind:variable	line:1
+distance_canculating	../Func_atlas_selection.py	/^def distance_canculating(imageA,imageB):$/;"	kind:function	line:18
+distance_canculating_matrix	../Func_atlas_selection.py	/^def distance_canculating_matrix(InputImages,RefImage):$/;"	kind:function	line:34
+imageDownSample	../Func_data_preprocessing.py	/^def imageDownSample(InputImageList, output, downsamplefactor, InterP, SpacingSet=None, Originset = None, DirectiongSet = None):$/;"	kind:function	line:213
+imageSizeAdjust	../Func_data_preprocessing.py	/^def imageSizeAdjust(InputImageList, outputdir, cutrange, SpacingSet=None, Originset = None, DirectiongSet = None):$/;"	kind:function	line:96
+image_patch	../Func_image_patch.py	/^def image_patch(im_dir_list, PatchIndice, reference_image,outputPrefix):$/;"	kind:function	line:164
+image_patch_calculate	../Func_image_patch.py	/^def image_patch_calculate(im_dir_list):$/;"	kind:function	line:23
+image_patch_padding	../Func_image_patch.py	/^def image_patch_padding (im_dir_list, PatchIndice, reference_image,outputPrefix):$/;"	kind:function	line:54
+image_select	../Func_atlas_selection.py	/^def image_select(InputImage, SelImageNum):$/;"	kind:function	line:50
+image_select_one	../Func_atlas_selection.py	/^def image_select_one(InputImage):$/;"	kind:function	line:94
+make_image_mask	../Func_image_patch.py	/^def make_image_mask (im_dir_list, PatchIndice, reference_image, outputPrefix):$/;"	kind:function	line:110
+patch_indice	../Func_image_patch.py	/^def patch_indice (im_dir_list):$/;"	kind:function	line:38
+readTxtIntoList	../Func_data_preprocessing.py	/^def readTxtIntoList(filename):$/;"	kind:function	line:22
+saveImagesFromDM	../Func_data_preprocessing.py	/^def saveImagesFromDM(dataMatrix, inputList, outputdir, referenceImName):$/;"	kind:function	line:72
+sitk_ImageRead	../Func_image_patch.py	/^def sitk_ImageRead(image_dir):$/;"	kind:function	line:18

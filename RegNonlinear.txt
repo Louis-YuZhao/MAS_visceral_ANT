@@ -1,0 +1,54 @@
+RegNonlinear
+
+organpatch
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/187_gallbladder_nonlinear/PCA_predict
+{'std': 0.10585213487040912, 'max': 0.7443130118289355, 'min': 0.26631393298059963, 'mean': 0.53885181976783714}
+{'std': 0.19122408274715633, 'max': 1.0, 'min': 0.2518348623853211, 'mean': 0.64357803760589805}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/170_pancreas_nonlinear/PCA_predict
+{'std': 0.14653993281893959, 'max': 0.64656538969616906, 'min': 0.083732821987855546, 'mean': 0.41752171972962715}
+{'std': 0.15372214446743981, 'max': 0.71085494716618636, 'min': 0.10259565898411278, 'mean': 0.47786086661772065}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/30325_left_adrenal_gland_nonlinear/PCA_predict
+{'std': 0.11173048493059168, 'max': 0.74730951356005171, 'min': 0.29872204472843455, 'mean': 0.54796315093714254}
+{'std': 0.16615431208719675, 'max': 0.98770491803278693, 'min': 0.32387923147301007, 'mean': 0.63236947612314665}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/30324_right_adrenal_gland_nonlinear/PCA_predict
+{'std': 0.12908835197925955, 'max': 0.7166841552990556, 'min': 0.10692335208611102, 'mean': 0.54023008692680241}
+{'std': 0.18503856490800874, 'max': 0.9332679097154073, 'min': 0.056481258803724191, 'mean': 0.58636754557632464}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/29193_first_lumbar_vertebra_nonlinear/PCA_predict
+{'std': 0.075803931987198744, 'max': 0.83353399149209417, 'min': 0.5436843289097395, 'mean': 0.70352723041366594}
+{'std': 0.11298911734346476, 'max': 0.94237749546279492, 'min': 0.48070913120063641, 'mean': 0.75983334042902095}
+
+# loaclpatch
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/187_gallbladder_nonlinear_LocalPatch/PCA_predict
+{'std': 0.09314146545736611, 'max': 0.74887156339761995, 'min': 0.34074964922830225, 'mean': 0.58515950208176304}
+{'std': 0.16630307503110206, 'max': 0.98262757871878392, 'min': 0.35573394495412847, 'mean': 0.71503843845755677}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/170_pancreas_nonlinear_LocalPatch/PCA_predict
+{'std': 0.1294267524017102, 'max': 0.64781368821292773, 'min': 0.18287255563047874, 'mean': 0.47251481545261792}
+{'std': 0.1283135302917475, 'max': 0.80952380952380953, 'min': 0.27919940539392651, 'mean': 0.52084506930219809}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/30325_left_adrenal_gland_nonlinear_LocalPatch/PCA_predict
+{'std': 0.09739962164989388, 'max': 0.74277016742770163, 'min': 0.29978813559322032, 'mean': 0.56235258333932925}
+{'std': 0.13990104947239146, 'max': 0.95901639344262291, 'min': 0.3957169459962756, 'mean': 0.65687407990204727}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/30324_right_adrenal_gland_nonlinear_LocalPatch/PCA_predict
+{'std': 0.12653429029800101, 'max': 0.75205724508050109, 'min': 0.095839330105979323, 'mean': 0.56227001382036002}
+{'std': 0.18331624864536197, 'max': 0.91942148760330578, 'min': 0.050331535369498748, 'mean': 0.66683831732364995}
+
+runfile('/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21/CompareThePreandtruth_8_30.py', wdir='/home/louis/Documents/program_work/Python/MAS_visceral_ANT_2018_1_21')
+Results will be stored in: /media/louis/Volume/ProgramWorkResult/VisercialMAS_ANT/Result_Eigenfaces_KNN/PatchedImage/29193_first_lumbar_vertebra_nonlinear_LocalPatch/PCA_predict
+{'std': 0.068894351075550878, 'max': 0.85646200245745985, 'min': 0.57075606730493977, 'mean': 0.75115326721724696}
+{'std': 0.1031447468279931, 'max': 0.94283121597096187, 'min': 0.50980169327802716, 'mean': 0.80259275377313666}

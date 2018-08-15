@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AfTransModification.py	../AfTransModification.py	1;"	kind:file	line:1
+DataMatrix	../ImageProcessing.py	/^        DataMatrix = DataMatrix + np.abs(DataMatrix.min(axis=0))$/;"	kind:variable	line:168
+DirectiongSet	../ImageProcessing.py	/^DirectiongSet = (-1.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 1.0)$/;"	kind:variable	line:70
+DirectiongSet	../LabelProcessing.py	/^DirectiongSet = ImInfo['direction']$/;"	kind:variable	line:79
+ImInfo	../ImageProcessing.py	/^        ImInfo = ImageInfo.item()$/;"	kind:variable	line:196
+ImInfo	../ImageProcessing.py	/^    ImInfo = ImageInfo.item()$/;"	kind:variable	line:147
+ImInfo	../ImageProcessing.py	/^ImInfo = {}$/;"	kind:variable	line:73
+ImInfo	../LabelProcessing.py	/^ImInfo = ImageInfo.item()$/;"	kind:variable	line:77
+ImageInfo	../ImageProcessing.py	/^        ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:195
+ImageInfo	../ImageProcessing.py	/^    ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:146
+ImageInfo	../LabelProcessing.py	/^ImageInfo = np.load('ImageInfo.npy')$/;"	kind:variable	line:76
+ImageProcessing.py	../ImageProcessing.py	1;"	kind:file	line:1
+ImageRegOutput_dir	../LabelProcessing.py	/^ImageRegOutput_dir = root_imge_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:133
+Image_select	../ImageProcessing.py	/^Image_select = range(32)+range(33,40)  # range(32)+range(33,40)$/;"	kind:variable	line:43
+InputImage	../ImageProcessing.py	/^        InputImage = NormalizedDataMatrix  # (z*x*y)*N$/;"	kind:variable	line:178
+InterP	../ImageProcessing.py	/^        InterP = 3$/;"	kind:variable	line:112
+InterP	../LabelProcessing.py	/^        InterP = 3 $/;"	kind:variable	line:114
+LabImOutput	../LabelProcessing.py	/^        LabImOutput = RegOutput_dir + '\/LabelRegResult_' + labelBaseName + '.nrrd'$/;"	kind:variable	line:181
+LabImOutputList	../LabelProcessing.py	/^    LabImOutputList = []$/;"	kind:variable	line:151
+LabelProcessing.py	../LabelProcessing.py	1;"	kind:file	line:1
+NormalizedDataMatrix	../ImageProcessing.py	/^        NormalizedDataMatrix = normalize(DataMatrix, norm='max', axis = 0)$/;"	kind:variable	line:169
+NormalizedOutput_list	../ImageProcessing.py	/^        NormalizedOutput_list = saveImagesFromDM(NormalizedDataMatrix, makeReferenceInput_list, normalization_dir, REF)$/;"	kind:variable	line:174
+OriginSet	../ImageProcessing.py	/^OriginSet = origin$/;"	kind:variable	line:69
+OriginSet	../LabelProcessing.py	/^OriginSet = ImInfo['origin']$/;"	kind:variable	line:78
+REF	../ImageProcessing.py	/^        REF = makeReferenceInput_list[0] # just for getting the information of origin, direction and spacing.$/;"	kind:variable	line:173
+RegImOutput	../ImageProcessing.py	/^        RegImOutput= RegOutput_dir+'\/ImRegResult_' + baseName + '.nrrd'$/;"	kind:variable	line:261
+RegImOutputList	../ImageProcessing.py	/^    RegImOutputList = []$/;"	kind:variable	line:233
+RegInput_dir	../ImageProcessing.py	/^    RegInput_dir = downsampleresult_dir + '\/FileList.txt'$/;"	kind:variable	line:211
+RegInput_dir	../ImageProcessing.py	/^    RegInput_dir = normalization_dir + '\/FileList.txt'$/;"	kind:variable	line:208
+RegInput_dir	../LabelProcessing.py	/^    RegInput_dir = cuttingresult_dir + '\/FileList.txt'$/;"	kind:variable	line:125
+RegInput_dir	../LabelProcessing.py	/^    RegInput_dir = downsampleresult_dir + '\/FileList.txt'    $/;"	kind:variable	line:123
+RegInput_list	../ImageProcessing.py	/^RegInput_list = readTxtIntoList (RegInput_dir)$/;"	kind:variable	line:213
+RegInput_list	../LabelProcessing.py	/^RegInput_list = Dpp.readTxtIntoList(RegInput_dir)$/;"	kind:variable	line:127
+RegOutput_dir	../ImageProcessing.py	/^RegOutput_dir = root_imge_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:215
+RegOutput_dir	../LabelProcessing.py	/^RegOutput_dir = label_dir + '\/Regtrans_Linear_Elastix'$/;"	kind:variable	line:129
+RunImageAdjust	../ImageProcessing.py	/^RunImageAdjust = False$/;"	kind:variable	line:30
+RunImageAdjust	../LabelProcessing.py	/^RunImageAdjust = True$/;"	kind:variable	line:25
+RunMakeReference	../ImageProcessing.py	/^RunMakeReference = True$/;"	kind:variable	line:32
+RunNormalization	../ImageProcessing.py	/^RunNormalization = True$/;"	kind:variable	line:33
+RunRegistration	../ImageProcessing.py	/^RunRegistration = True$/;"	kind:variable	line:34
+RunRegistration	../LabelProcessing.py	/^RunRegistration = True$/;"	kind:variable	line:27
+RundownSample	../ImageProcessing.py	/^RundownSample = False$/;"	kind:variable	line:31
+RundownSample	../LabelProcessing.py	/^RundownSample = True$/;"	kind:variable	line:26
+SpacingSet	../ImageProcessing.py	/^SpacingSet = (1, 1, 1)$/;"	kind:variable	line:71
+SpacingSet	../LabelProcessing.py	/^SpacingSet = ImInfo['spacing']   $/;"	kind:variable	line:80
+baseName	../ImageProcessing.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:191
+baseName	../ImageProcessing.py	/^        baseName = os.path.basename(name)$/;"	kind:variable	line:237
+baseName	../ImageProcessing.py	/^    baseName = os.path.basename(name)$/;"	kind:variable	line:142
+cutrange	../ImageProcessing.py	/^    cutrange = [[0.0,1.0],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:85
+cutrange	../ImageProcessing.py	/^    cutrange = [[0.3,0.8],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:82
+cutrange	../LabelProcessing.py	/^    cutrange = [[0.0,1.0],[0.0,1.0],[0.0,1.0]]$/;"	kind:variable	line:90
+cutrange	../LabelProcessing.py	/^    cutrange = [[0.3,0.8],[0.0,1.0],[0.0,1.0]]    $/;"	kind:variable	line:86
+cuttinginput_list	../ImageProcessing.py	/^    cuttinginput_list = sizeadjust_list$/;"	kind:variable	line:91
+cuttinginput_list	../LabelProcessing.py	/^    cuttinginput_list = sizeadjust_list$/;"	kind:variable	line:97
+cuttingresult_dir	../ImageProcessing.py	/^cuttingresult_dir = root_imge_dir + '\/cuttingresult'$/;"	kind:variable	line:62
+cuttingresult_dir	../LabelProcessing.py	/^cuttingresult_dir = label_dir + '\/cuttingresult'$/;"	kind:variable	line:69
+data_folder	../ImageProcessing.py	/^data_folder = '\/media\/louis\/Volume\/ResearchData\/visceral_used\/GC_Volumes'$/;"	kind:variable	line:49
+data_folder	../LabelProcessing.py	/^data_folder = '\/media\/louis\/Volume\/ResearchData\/visceral_used\/GC_Labels\/'+ organ $/;"	kind:variable	line:55
+downsamplefactor	../ImageProcessing.py	/^        downsamplefactor = (0.5, 0.5, 0.5) # for different dimension$/;"	kind:variable	line:113
+downsamplefactor	../LabelProcessing.py	/^        downsamplefactor = (0.5, 0.5, 0.5) # for different dimension$/;"	kind:variable	line:115
+downsampleinput_dir	../ImageProcessing.py	/^    downsampleinput_dir = cuttingresult_dir+ '\/FileList.txt'$/;"	kind:variable	line:101
+downsampleinput_dir	../LabelProcessing.py	/^    downsampleinput_dir = cuttingresult_dir+ '\/FileList.txt'$/;"	kind:variable	line:104
+downsampleinput_list	../ImageProcessing.py	/^    downsampleinput_list = readTxtIntoList(downsampleinput_dir)$/;"	kind:variable	line:102
+downsampleinput_list	../LabelProcessing.py	/^    downsampleinput_list = Dpp.readTxtIntoList(downsampleinput_dir)$/;"	kind:variable	line:105
+downsampleresult_dir	../ImageProcessing.py	/^    downsampleresult_dir = root_imge_dir + '\/downsampleresult'$/;"	kind:variable	line:104
+downsampleresult_dir	../LabelProcessing.py	/^    downsampleresult_dir = label_dir + '\/downsampleresult'$/;"	kind:variable	line:106
+downsampleresult_list	../ImageProcessing.py	/^        downsampleresult_list = imageDownSample(downsampleinput_list, downsampleresult_dir, downsamplefactor, InterP, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:114
+downsampleresult_list	../LabelProcessing.py	/^        downsampleresult_list = Dpp.imageDownSample(downsampleinput_list, downsampleresult_dir,$/;"	kind:variable	line:116
+e	../ImageProcessing.py	/^    e = time.time()$/;"	kind:variable	line:268
+e	../LabelProcessing.py	/^    e = time.time()$/;"	kind:variable	line:187
+fixedIm	../ImageProcessing.py	/^    fixedIm =  reference_im_fn$/;"	kind:variable	line:227
+fixedImage	../ImageProcessing.py	/^    fixedImage = sitk.ReadImage(fixedIm)$/;"	kind:variable	line:228
+fn	../ImageProcessing.py	/^        fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:187
+fn	../ImageProcessing.py	/^    fn = reference_dir + '\/reference_WithoutNorm'+'.nrrd'$/;"	kind:variable	line:138
+fnRecord	../ImageProcessing.py	/^        fnRecord = '\/reference_WithNorm_' + baseName + '.nrrd'$/;"	kind:variable	line:192
+fnRecord	../ImageProcessing.py	/^    fnRecord ='\/reference_WithoutNorm_' + baseName + '.nrrd'$/;"	kind:variable	line:143
+im_fns	../ImageProcessing.py	/^im_fns = []$/;"	kind:variable	line:52
+im_fns	../LabelProcessing.py	/^im_fns = Dpp.readTxtIntoList(data_folder +'\/FileList.txt')$/;"	kind:variable	line:56
+im_fns_label	../AfTransModification.py	/^im_fns_label = Dpp.readTxtIntoList(label_data_dir + '\/FileList.txt')$/;"	kind:variable	line:33
+im_fns_raw	../ImageProcessing.py	/^im_fns_raw = readTxtIntoList(data_folder +'\/FileList.txt')$/;"	kind:variable	line:50
+imageBaseName	../LabelProcessing.py	/^        imageBaseName = string.join(labelBaseName.split("_")[0:-2], "_")$/;"	kind:variable	line:148
+image_array	../ImageProcessing.py	/^        image_array = np.reshape(SelImage,ImPara['dim'])$/;"	kind:variable	line:181
+image_array	../ImageProcessing.py	/^    image_array = np.reshape(SelImage,ImPara['dim'])$/;"	kind:variable	line:133
+img	../ImageProcessing.py	/^        img = sitk.GetImageFromArray(image_array)$/;"	kind:variable	line:182
+img	../ImageProcessing.py	/^    img = sitk.GetImageFromArray(image_array)$/;"	kind:variable	line:134
+l	../ImageProcessing.py	/^    l = e - s$/;"	kind:variable	line:269
+l	../LabelProcessing.py	/^    l = e - s$/;"	kind:variable	line:188
+labelBaseName	../LabelProcessing.py	/^        labelBaseName = os.path.basename(name)$/;"	kind:variable	line:147
+labelBaseName	../LabelProcessing.py	/^        labelBaseName = os.path.basename(name)$/;"	kind:variable	line:180
+label_data_dir	../AfTransModification.py	/^                 '\/Regtrans_' + regIfLinear +'_Elastix'$/;"	kind:variable	line:24
+label_dir	../LabelProcessing.py	/^label_dir = root_label_dir + '\/'+ organ$/;"	kind:variable	line:64
+logFile	../ImageProcessing.py	/^    logFile = open(logFileDir, 'w')$/;"	kind:variable	line:225
+logFile	../LabelProcessing.py	/^    logFile = open(logFileDir, 'w')$/;"	kind:variable	line:140
+logFileDir	../ImageProcessing.py	/^    logFileDir = RegOutput_dir+'\/RegTrans' + '_RUN_' + '.log'$/;"	kind:variable	line:224
+logFileDir	../LabelProcessing.py	/^    logFileDir = RegOutput_dir+'\/RegTrans' + '_RUN_' + '.log'$/;"	kind:variable	line:139
+makeReferenceInput_list	../ImageProcessing.py	/^    makeReferenceInput_list = readTxtIntoList(cuttingresult_dir + '\/FileList.txt')$/;"	kind:variable	line:122
+makeReferenceInput_list	../ImageProcessing.py	/^    makeReferenceInput_list = readTxtIntoList(downsampleresult_dir + '\/FileList.txt')$/;"	kind:variable	line:120
+movingIm	../ImageProcessing.py	/^        movingIm = RegInput_list[i]$/;"	kind:variable	line:235
+movingIm	../LabelProcessing.py	/^        movingIm = RegInput_list[i]$/;"	kind:variable	line:155
+movingImage	../ImageProcessing.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:243
+movingImage	../LabelProcessing.py	/^        movingImage = sitk.ReadImage(movingIm)$/;"	kind:variable	line:156
+normalization_dir	../ImageProcessing.py	/^    normalization_dir = root_imge_dir + '\/normalizationImage\/NormalizedImage_'$/;"	kind:variable	line:156
+organ	../AfTransModification.py	/^organ = '58_liver'$/;"	kind:variable	line:19
+organ	../LabelProcessing.py	/^organ = '58_liver'$/;"	kind:variable	line:41
+origin	../ImageProcessing.py	/^origin = Origin_computing(im_fns)$/;"	kind:variable	line:68
+paraAffine	../ImageProcessing.py	/^        paraAffine = sitk.GetDefaultParameterMap("affine")$/;"	kind:variable	line:249
+paraAffine	../LabelProcessing.py	/^        paraAffine = sitk.ReadParameterFile(transformParadir_Affine)$/;"	kind:variable	line:163
+paraTrans	../ImageProcessing.py	/^        paraTrans = sitk.GetDefaultParameterMap("translation")$/;"	kind:variable	line:248
+paraTrans	../LabelProcessing.py	/^        paraTrans = sitk.ReadParameterFile(transformParadir_Trans)$/;"	kind:variable	line:159
+reference_dir	../ImageProcessing.py	/^    reference_dir = root_imge_dir +'\/referenceImage'$/;"	kind:variable	line:160
+reference_dir	../ImageProcessing.py	/^reference_dir = root_imge_dir +'\/referenceImage'$/;"	kind:variable	line:124
+reference_dir	../LabelProcessing.py	/^reference_dir = root_imge_dir + '\/referenceImage'$/;"	kind:variable	line:34
+reference_im_fn	../ImageProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:207
+reference_im_fn	../ImageProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:210
+reference_im_fn	../LabelProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithNorm' + '.nrrd'$/;"	kind:variable	line:36
+reference_im_fn	../LabelProcessing.py	/^    reference_im_fn = reference_dir + '\/reference_WithoutNorm' + '.nrrd'$/;"	kind:variable	line:38
+regIfLinear	../AfTransModification.py	/^regIfLinear = "Linear"$/;"	kind:variable	line:17
+result_dir_lab	../AfTransModification.py	/^                 '\/Modification_Regtrans_' + regIfLinear + '_Elastix' $/;"	kind:variable	line:26
+result_lab_list	../AfTransModification.py	/^result_lab_list = Dpp.ImageModificationAfterTransform(im_fns_label, result_dir_lab)$/;"	kind:variable	line:34
+root_dir	../AfTransModification.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:21
+root_dir	../ImageProcessing.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:38
+root_dir	../LabelProcessing.py	/^root_dir = '\/media\/louis\/Volume\/ProgramWorkResult\/MICCAI_2017_6_12'$/;"	kind:variable	line:31
+root_imge_dir	../ImageProcessing.py	/^root_imge_dir = root_dir +'\/Full_Image' + '\/GC_Volumes_adjustment' # image root dir$/;"	kind:variable	line:39
+root_imge_dir	../LabelProcessing.py	/^root_imge_dir = root_dir + '\/Full_Image' + '\/GC_Volumes_adjustment' # image root dir $/;"	kind:variable	line:32
+root_label_dir	../ImageProcessing.py	/^root_label_dir = root_dir +'\/Full_Image' + '\/GC_label_adjustment' # image root dir$/;"	kind:variable	line:40
+root_label_dir	../LabelProcessing.py	/^root_label_dir = root_dir + '\/Full_Image' + '\/GC_label_adjustment' # label root dir$/;"	kind:variable	line:33
+s	../ImageProcessing.py	/^    s = time.time()$/;"	kind:variable	line:222
+s	../LabelProcessing.py	/^    s = time.time()$/;"	kind:variable	line:137
+searchName	../LabelProcessing.py	/^searchName = "10000129_1_CTce_ThAb"$/;"	kind:variable	line:58
+selx	../ImageProcessing.py	/^    selx = sitk.ElastixImageFilter()$/;"	kind:variable	line:230
+sizeadjust_image_dir	../ImageProcessing.py	/^sizeadjust_image_dir = root_imge_dir + '\/sizeadjustment'$/;"	kind:variable	line:58
+sizeadjust_label_dir	../LabelProcessing.py	/^sizeadjust_label_dir = label_dir + '\/sizeadjustment'$/;"	kind:variable	line:65
+sizeadjust_list	../ImageProcessing.py	/^    sizeadjust_list = imageSizeAdjust(im_fns[0:20], sizeadjust_image_dir, cutrange, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:83
+sizeadjust_list	../ImageProcessing.py	/^sizeadjust_list=[]$/;"	kind:variable	line:57
+sizeadjust_list	../LabelProcessing.py	/^                                          cutrange, SpacingSet, OriginSet, DirectiongSet)$/;"	kind:variable	line:88
+stran	../LabelProcessing.py	/^    stran = sitk.TransformixImageFilter()$/;"	kind:variable	line:142
+transformPara	../ImageProcessing.py	/^        transformPara = RegOutput_dir + '\/ImRegResult_' + baseName$/;"	kind:variable	line:238
+transformParaMaplist	../LabelProcessing.py	/^    transformParaMaplist = []    $/;"	kind:variable	line:144
+transformParadir_Affine	../LabelProcessing.py	/^        transformParadir_Affine = transformParaMaplist[i] + '\/TransformParameters.1.txt' $/;"	kind:variable	line:162
+transformParadir_Trans	../LabelProcessing.py	/^        transformParadir_Trans = transformParaMaplist[i] + '\/TransformParameters.0.txt'       $/;"	kind:variable	line:158
